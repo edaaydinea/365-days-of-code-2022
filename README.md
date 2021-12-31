@@ -1,1 +1,4 @@
-# 365-days-of-coding-chanllenge
+# 365 Days of Coding Challenge
+
+## Day 1: Studying Python
+- 
