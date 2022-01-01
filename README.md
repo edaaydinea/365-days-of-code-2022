@@ -1,7 +1,7 @@
 # 365 Days of Coding Challenge
 
-This coding challenge is created by Eda AYDIN.
-This coding challenge aims to progress from Python programming to Computer Vision, Natural Language Processing in artificial intelligence.
+This coding challenge is created by *Eda AYDIN*.
+This coding challenge aims to progress from ***Python programming to Computer Vision, Natural Language Processing*** in Artificial Intelligence.
 
 ## Day 1 (January 1, 2022): Making the plan
 - Today I learned about how I should work for 1 year and made the plan in this way. This is how I'll proceed for a year.
