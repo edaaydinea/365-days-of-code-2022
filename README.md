@@ -1,4 +1,4 @@
-# 365 Days of Coding Challenge
+# 365 Days of Code
 
 This coding challenge is created by *Eda AYDIN*.
 This coding challenge aims to progress from ***Python programming to Computer Vision, Natural Language Processing*** in Artificial Intelligence.
