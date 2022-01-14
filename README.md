@@ -1,4 +1,6 @@
-# [365 Days of Code](https://edaaydinea.home.blog/365-days-of-code/)
+[365 Days of Code](https://edaaydinea.home.blog/365-days-of-code/)
+=====
+
 
 This coding challenge is created by *Eda AYDIN*.
 
