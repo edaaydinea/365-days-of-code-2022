@@ -25,22 +25,30 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
 
 ### January 2022
 
-<table>
-<thead>
-  <tr>
-    <a name="1"></a>
-    <th>JANUARY 2022</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Sources</td>
-  </tr>
-  <tr>
-    <td>- Udemy: <a href="https://www.udemy.com/course/python-sfrdan-uzmanlga-programlama-1/" target="_blank" rel="noopener noreferrer">Python: Yapay Zeka için Python Programlama (1)</a><br>
-      - Udemy :<a href="https://www.udemy.com/course/algorithms-data-structures-and-real-life-python-problems/?src=sac&kw=algoritmalar+veri+yap%C4%B1lar%C4%B1" target="_blank" rel="noopener noreferrer">Algoritmalar, Veri Yapıları ve Real - Life Python Problemleri (2)</a><br>
-      - Udemy: <a href="https://www.udemy.com/course/veri-bilimi-icin-istatistik-python-ile-istatistik/?src=sac&kw=veri+bilimi+i%C3%A7in+is" target="_blank" rel="noopener noreferrer">Veri Bilimi için İstatistik: Python ile İstatistik</a><br>
-      - Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars<br></td>
+<table style="height: 209px;">
+  <thead>
+    <tr style="height: 18px;">
+      <th style="height: 18px; width: 694px;">JANUARY 2022</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="height: 18px;">
+      <td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+    </tr>
+    <tr style="height: 173px;">
+      <td style="height: 173px; width: 694px;">
+        <ul>
+          <li>Udemy: <a href="https://www.udemy.com/course/python-sfrdan-uzmanlga-programlama-1/" target="_blank" rel="noopener noreferrer">Python: Yapay Zeka i&ccedil;in Python Programlama (1)</a></li>
+          <li>Udemy :<a href="https://www.udemy.com/course/algorithms-data-structures-and-real-life-python-problems/?src=sac&amp;kw=algoritmalar+veri+yap%C4%B1lar%C4%B1" target="_blank" rel="noopener noreferrer">Algoritmalar, Veri Yapıları ve Real - Life Python Problemleri (2)</a></li>
+          <li>Udemy: <a href="https://www.udemy.com/course/veri-bilimi-icin-istatistik-python-ile-istatistik/?src=sac&amp;kw=veri+bilimi+i%C3%A7in+is" target="_blank" rel="noopener noreferrer">Veri Bilimi i&ccedil;in İstatistik: Python ile İstatistik</a></li>
+          <li>Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars
+            <ul>
+              <li><a href="https://github.com/edaaydinea/HackerRank" target="" rel="noopener noreferrer">HackerRank Solutions</a></li>
+              <li><a href="https://github.com/edaaydinea/LeetCode" target="" rel="noopener noreferrer">LeetCode Solutions</a></li>
+              <li><a href="https://github.com/edaaydinea/Coderbyte" target="" rel="noopener noreferrer">Coderbyte Solutions</a></li>
+            </ul>
+          </li>
+      </ul>
+    </td>
   </tr>
 </tbody>
-</table>
