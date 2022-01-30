@@ -28,6 +28,7 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
 <table style="height: 209px;">
   <thead>
     <tr style="height: 18px;">
+      <a name="1"></a>
       <th style="height: 18px; width: 694px;">JANUARY 2022</th>
     </tr>
   </thead>
