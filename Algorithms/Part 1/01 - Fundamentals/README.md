@@ -116,3 +116,19 @@ A Java program manipulates variables that are named with identifiers. Each varia
 </tr>
 </tbody>
 </table>
+
+- *Expressions* Typical expressions are *infix*. When an expression contains more than one operator, the precedence order specifies the order in which they are applied: The operators * and / (and %) have higher precedence than (are applied before) the + and - operators; among logical operators, ! is the highest precedence, followed by && and then ||. Generally, operators of the same precedence are *left associative* (applied left to right). You can use parentheses to override these rules.
+- *Type conversion* Numbers are automatically promoted to a more inclusive type if no information is lost. For example, in the expression 1 + 2.5, the 1 is promoted to the double value 1.0 and the expression evaluates to the double value 3.5. A cast is a directive to convert a value of one type into a value of another type. For example (int) 3.7 is 3. Casting a double to an int truncates toward zero.
+- *Comparisons* The following mixed-type operators compare two values of the same type and produce a boolean value:
+  - equal(==)
+  - not equal (!=)
+  - less than (<)
+  - less than or equal (<=)
+  - greater than (>)
+  - greater than or equal (>=)
+- *Other primitive types*. Java's int has a 32-bit representation; Java's double type has a 64-bit representation. Java has five additional primitive data types:
+  - 64-bit integers, with arithmetic operations (long)
+  - 16-bit integers, with arithmetic operations (short)
+  - 16-bit characters, with arithmetic operations (char)
+  - 8-bit integers, with arithmetic operations (byte)
+  - 32-bit single-precision real numbers, with arithmetic operations (float)
