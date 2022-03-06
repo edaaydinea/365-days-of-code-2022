@@ -142,7 +142,6 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
           </li>
           <li>Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars
             <ul>
-              <li><a href="https://github.com/edaaydinea/HackerRank" target="" rel="noopener noreferrer">HackerRank Solutions</a></li>
               <li><a href="https://github.com/edaaydinea/LeetCode" target="" rel="noopener noreferrer">LeetCode Solutions</a></li>
               <li><a href="https://github.com/edaaydinea/Coderbyte" target="" rel="noopener noreferrer">Coderbyte Solutions</a></li>
             </ul>
