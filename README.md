@@ -124,6 +124,8 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
           <li> Lectures:
             <ul>
               <li><a href="https://www.coursera.org/specializations/cancer-biology" target="_blank" rel="noopener noreferrer">Cancer Biology Specialization</a></li>
+              <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
+              <li><a href="https://www.coursera.org/learn/algorithms-part2" target="_blank" rel="noopener noreferrer">Algorithm - Part 2</a></li>
             </ul>
           </li>
           <li>Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars
