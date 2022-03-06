@@ -77,11 +77,12 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
     <tr style="height: 173px;">
       <td style="height: 173px; width: 694px;">
         <ul>
-         <li>Patika.dev:
+         <li>Lectures:
            <ul>
-             <li><a href="https://app.patika.dev/egitimler/bootcamp-hizlandirma-programi---python" target="_blank" rel="noopener noreferrer">Bootcamp Hızlandırma programı - Python</a></li>
-             <li><a href="https://app.patika.dev/egitimler/veri-analizi-patikasi" target="_blank" rel="noopener noreferrer">Veri Analizi Patikası</a></li>
-             <li><a href="https://app.patika.dev/egitimler/baslangic-seviye-veri-bilimi-patikasi" target="_blank" rel="noopener noreferrer">Başlangıç Seviye Veri Bilimi Patikası</a></li>
+             <li><a href="https://app.patika.dev/egitimler/bootcamp-hizlandirma-programi---python" target="_blank" rel="noopener noreferrer">Patika.dev - Bootcamp Hızlandırma programı - Python</a></li>
+             <li><a href="https://app.patika.dev/egitimler/veri-analizi-patikasi" target="_blank" rel="noopener noreferrer">Patika.dev Veri Analizi Patikası</a></li>
+             <li><a href="https://app.patika.dev/egitimler/baslangic-seviye-veri-bilimi-patikasi" target="_blank" rel="noopener noreferrer">Patika.dev - Başlangıç Seviye Veri Bilimi Patikası</a></li>
+             <li><a href="https://www.edx.org/course/fundamentals-of-neuroscience-part-1-the-electrical?index=product&queryID=fbfe36d7466688a51ced35479feb593a&position=1" target="_blank" rel="noopener noreferrer">Fundamentals of Neuroscience, Part 1: The Electrical Properties of the Neuron</a></li>
            </ul>
         </li>
         <li>Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars
@@ -126,6 +127,17 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
               <li><a href="https://www.coursera.org/specializations/cancer-biology" target="_blank" rel="noopener noreferrer">Cancer Biology Specialization</a></li>
               <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
               <li><a href="https://www.coursera.org/learn/algorithms-part2" target="_blank" rel="noopener noreferrer">Algorithm - Part 2</a></li>
+            </ul>
+          </li>
+          <li> Master Program:
+            <ul>
+              <li> Neuroengineering:
+                <ul>
+                  <li>Neurobiology</li>
+                  <li>Computational Neuroscience</li>
+                  <li>Neurolinguistics</li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li>Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars
