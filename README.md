@@ -7,7 +7,7 @@
 
 This coding challenge is created by *Eda AYDIN*.
 
-This coding challenge aims to progress from ***Python programming to Computer Vision, Natural Language Processing*** in Artificial Intelligence.
+This coding challenge aims to progress from ***Python programming to Computer Vision, Natural Language Processing*** in Artificial Intelligence and ***Neuroscience***.
 
 ## Table of Contents
 - [January 2022](#1)
