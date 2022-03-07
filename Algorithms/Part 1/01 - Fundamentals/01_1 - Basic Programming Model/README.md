@@ -2,16 +2,17 @@
 
 **TABLE OF CONTENTS**
 
-1. [Fundamentals](#1-fundamentals)
-    1. [Programming Model](#11-programming-model)
-        1. [Primitive data types and expressions](#primitive-data-types-and-expressions)
-        2. [Statements](#statements)
-        3. [Arrays](#arrays)
-        4. [Static Methods](#static-methods)
-        5. [Recursion](#recursion)
-        6. [APIs](#apis)
-        7. [Strings](#strings)
-        8.
+1. [Fundamentals](#1)
+    1. [Programming Model](#11)
+        1. [Primitive data types and expressions](#111)
+        2. [Statements](#112)
+        3. [Arrays](#113)
+        4. [Static Methods](#114)
+        5. [Recursion](#115)
+        6. [APIs](#116)
+        7. [Strings](#117)
+
+<a name="1"></a>
 
 ## 1. Fundamentals
 
@@ -62,6 +63,8 @@ Choosing the best algorithm for a particular task can be a complicated process, 
 mathematical analysis. The branch of computer science that comprises the study of such questions is called the *analysis
 of algorithms*.
 
+<a name="11"></a>
+
 ### 1.1 Programming Model
 
 Our study of Algorithms is based upon implementing them as programs written in the Java programming language. We do so
@@ -70,6 +73,8 @@ for several reasons:
 - Our programs are concise, elegant, and complete descriptions of algorithms.
 - You can run the programs to study the properties of the algorithms.
 - You can put the algorithms immediately to good use in applications.
+
+<a name="111"></a>
 
 #### Primitive data types and expressions.
 
@@ -169,6 +174,8 @@ stores one of the permissible data-type values. We use expressions to apply the 
     - 16-bit characters, with arithmetic operations (`char`)
     - 8-bit integers, with arithmetic operations (`byte`)
     - 32-bit single-precision real numbers, with arithmetic operations (`float`)
+
+<a name="112"></a>
 
 #### Statements
 
@@ -278,6 +285,8 @@ The following table illustrates different kind of Java statements.
 </tbody>
 </table>
 
+<a name="113"></a>
+
 #### Arrays
 
 An *array* stores a sequence of value that are all of the same type.If we have `N` values, we can use the
@@ -333,6 +342,8 @@ This situation is known as _**aliasing**_ and can lead to subtle bugs.
   array may be _ragged_ (its arrays may all be of differing lengths), but we most often work with (for appropriate
   parameters M and N) M-by-N two-dimensional arrays. To refer to the entry in row `i` and column `j` of a
   two-dimensional array `a[][]`, we use the notation `a[i][j]`.
+
+<a name="114"></a>
 
 #### Static methods
 
