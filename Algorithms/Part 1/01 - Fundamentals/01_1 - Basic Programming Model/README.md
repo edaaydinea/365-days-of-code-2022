@@ -2,15 +2,15 @@
 
 **TABLE OF CONTENTS**
 
-1. [Fundamentals](#fundamentals)
-    1. [Programming Model]()
-        1. [Primitive data types and expressions]()
-        2. [Statements]()
-        3. [Arrays]()
-        4. [Static Methods]()
-        5. [Recursion]()
-        6. [APIs]()
-        7. [Strings]()
+1. [Fundamentals](#1-fundamentals)
+    1. [Programming Model](#11-programming-model)
+        1. [Primitive data types and expressions](#primitive-data-types-and-expressions)
+        2. [Statements](#statements)
+        3. [Arrays](#arrays)
+        4. [Static Methods](#static-methods)
+        5. [Recursion](#recursion)
+        6. [APIs](#apis)
+        7. [Strings](#strings)
         8.
 
 ## 1. Fundamentals
@@ -22,20 +22,20 @@ suitable for implementation as a computer program.
 We can define, an algorithm by describing a procedure for solving a problem in natural language, or by writing a
 computer program that implements the procedure.
 
-```
-"""
+````java
+/*
 Compute the greatest common divisor of two nonnegative integers p and q as follows:
 	- If q is 0, the answer is p.
 	- If not, divide p by q and take the remainder r.
 	- The answer is the greatest common divisor of q and r.
-"""
-public static int gcd(int p, int q)
-{
-	if (q == 0) return p;
-	int r = p % q;
-	return gcd(q, r);
-}
-```
+*/
+public static int gcd(int p,int q)
+        {
+        if(q==0)return p;
+        int r=p%q;
+        return gcd(q,r);
+        }
+````
 
 One important reason for doing so is that it makes easier the task of checking whether they are finite, deterministic,
 and effective, as required.
@@ -283,7 +283,58 @@ The following table illustrates different kind of Java statements.
 An *array* stores a sequence of value that are all of the same type.If we have `N` values, we can use the
 notation `a[i]`to refer to the ith value for any value of `i`from `0` to `N-1`.
 
-- ***Creating an
+- ***Creating and initializing an array*** Making an array in a Java program involves three distinct steps:
+    - Declare the array name and type
+    - Create the array
+    - Initialize the array values
+- ***Default array initialization*** For economy code, we often take advantage of Java's default array initialization
+  convention and combine all three steps into a single statement. The default initial value is zero for numeric types
+  and `false` for type `boolean`.
+- ***Initializing declaration*** We can specify the initialization values at compile time, by listing literal values
+  between curly braces, separated by commas.
+
+````java
+//Long Form
+
+    double[]a;                       // declare an array by specifying all elements as double
+            a=new double[N];         // create an array as length of N
+            for(int i=0;i<N; i++)
+        a[i]=0.0;                    // initialize ith element of a array as 0.0
+
+// Short Form
+
+        double[]a=new double[N];     //declare all elements as doubles and create an array of length n and the array
+
+// Initializing declaration
+        int[]a={1,1,2,3,5,8};
+````
+
+- ***Using an array*** Once we create an array, its size is fixed. A program can refer to the length of an array `a[i]`
+  with the code `a.length`. Java does _automatic bounds checking_ - if you access an array with an illegal index your
+  program will terminate with
+  and [ArrayIndexOutOfBoundsException](http://download.oracle.com/javase/6/docs/api/java/lang/ArrayIndexOutOfBoundsException.html)
+- ***Aliasing*** An array name refers to the whole array - if we assign one array name to another, then both refer to
+  the same array.
+
+````java
+
+int[]a=new int[N];
+        ...
+        a[i]=1234;
+        ...
+        int[]b=a;
+        ...
+        b[i]=5678;   // a[i] is now 5678.
+````
+
+This situation is known as _**aliasing**_ and can lead to subtle bugs.
+
+- ***Two-dimensional arrays***. A two-dimensional array in Java is an array of one-dimensional arrays. A two-dimensional
+  array may be _ragged_ (its arrays may all be of differing lengths), but we most often work with (for appropriate
+  parameters M and N) M-by-N two-dimensional arrays. To refer to the entry in row `i` and column `j` of a
+  two-dimensional array `a[][]`, we use the notation `a[i][j]`.
+
+#### Static methods
 
 ## Resources
 
