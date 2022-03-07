@@ -30,12 +30,14 @@ Compute the greatest common divisor of two nonnegative integers p and q as follo
 	- If not, divide p by q and take the remainder r.
 	- The answer is the greatest common divisor of q and r.
 */
-public static int gcd(int p,int q)
-        {
-        if(q==0)return p;
-        int r=p%q;
-        return gcd(q,r);
-        }
+public class GreatestCommonDivisor {
+    public static int gcd(int p, int q) {
+        if (q == 0) return p;
+        int r = p % q;
+        return gcd(q, r);
+    }
+}
+
 ````
 
 One important reason for doing so is that it makes easier the task of checking whether they are finite, deterministic,
@@ -302,21 +304,27 @@ notation `a[i]`to refer to the ith value for any value of `i`from `0` to `N-1`.
 - ***Initializing declaration*** We can specify the initialization values at compile time, by listing literal values
   between curly braces, separated by commas.
 
-````java
-//Long Form
+```java
 
-    double[]a;                       // declare an array by specifying all elements as double
-            a=new double[N];         // create an array as length of N
-            for(int i=0;i<N; i++)
-        a[i]=0.0;                    // initialize ith element of a array as 0.0
+public class Arrays {
 
-// Short Form
+    public static void main(String[] args) {
+        //Long Form
+        double[] a;                 // declare an array by specifying all elements as double
+        a = new double[N];          // create an array as length of N
+        for (int i = 0; i < N; i++)
+            a[i] = 0.0;             // initialize ith element of an array as 0.0
 
-        double[]a=new double[N];     //declare all elements as doubles and create an array of length n and the array
+        // Short Form
 
-// Initializing declaration
-        int[]a={1,1,2,3,5,8};
-````
+        double[] a = new double[N]; //declare all elements as doubles and create an array of length n and the array
+
+        // Initializing declaration
+        int[] a = {1, 1, 2, 3, 5, 8};
+    }
+
+}
+```
 
 - ***Using an array*** Once we create an array, its size is fixed. A program can refer to the length of an array `a[i]`
   with the code `a.length`. Java does _automatic bounds checking_ - if you access an array with an illegal index your
@@ -325,16 +333,17 @@ notation `a[i]`to refer to the ith value for any value of `i`from `0` to `N-1`.
 - ***Aliasing*** An array name refers to the whole array - if we assign one array name to another, then both refer to
   the same array.
 
-````java
+```java
+public class Arrays2 {
+    public static void main(String[] args) {
+        int[] a = new int[N];   // declare and create an array as N dimension
+        a[i] = 1234;            // initialize ith element of array as 1234
+        int[] b = a;            // copy the array a to array b
+        b[i] = 5678;            // change the ith element of b | a[i] is now 5678.
+    }
+}
 
-int[]a=new int[N];
-        ...
-        a[i]=1234;
-        ...
-        int[]b=a;
-        ...
-        b[i]=5678;   // a[i] is now 5678.
-````
+```
 
 This situation is known as _**aliasing**_ and can lead to subtle bugs.
 
@@ -346,6 +355,78 @@ This situation is known as _**aliasing**_ and can lead to subtle bugs.
 <a name="114"></a>
 
 #### Static methods
+
+Static methods are called _functions_ in many programming languages, since they can behave like mathematical functions.
+Each static method is a sequence of statements that are executed, one after the other, when the static method is _
+called_.
+
+- ***Defining a static method*** A method encapsulates a computation that is defined as a sequence of statements. A
+  method takes arguments (values of given data types) and computes a _return value_ of some data type or causes a _side
+  effect_. Each static method is composed of a _signature_ and a _body_.
+
+````java
+class StaticMethods {
+    public static double sqrt(double c) {
+        if (c < 0) return Double.NaN;
+        double err = 1e-15;             //local variables
+
+    }
+}
+
+````
+
+- ***Invoking a static method*** A call on a static method is its name followed by expressions that specify argument
+  values in parentheses, separated by commas. When a method is called, its argument variables are initialized with the
+  values of the corresponding expressions in the call. A `return` statement terminates a static method, returning
+  control to the caller. If the static method is to compute a value, that value must be specified in a `return`
+  statement.
+
+
+- ***Properties of methods*** Java methods have the following features:
+    - ***Arguments are passed by value***  When calling a function, the argument value is fully evaluated and the
+      resulting value is *copied* argument variable. This is known as *pass* by value. Array (and other object)
+      references are also passed by value: the method cannot change the reference, but it can change the entries in the
+      array (or value of the object).
+    - ***Method names can be overloaded** Methods within a class can have the same name, provided they have different
+      signatures. This features is known as overloading.
+    - ***A method has a single return value but may have multiple return statements***. A Java method can provide only
+      one return value. Control goes back to the calling program as soon as the first `return` statement is reached.
+    - ***A method can have side effects***. A method may use the keyword `void` as its return type, to indicate that it
+      has no return value and produces side effects (consume input, produce output, change entries in an array, or
+      otherwise change the state of the system).
+
+
+- ***Recursion*** A recursive method is a method that calls itself either directly or indirectly. There are three
+  important rules of thumb in developing recursive programs:
+    - The recursion has a base case.
+    - Recursive calls must address sub-problems that are *smaller* in some sense,so that recursive calls converge to the
+      base case. -Recursive calls should not address sub-problems that *overlap*.
+
+
+- ***Basic programming model***. A *library of static methods* is a set of static methods that are defined in a Java
+  class. A basic model for Java programming is to develop a program that addresses a specific computational task by
+  creating a library of static methods, one of which is named `main()`.
+
+
+- ***Modular programming***. Libraries of static methods enable *modular programming*, where static methods in one
+  library can call static methods defined in other libraries. This approach has many important advantages.
+    - Work with modules of reasonable size
+    - Share and reuse code without having to reimplement it.
+    - Substitute improved implementations
+    - Develop appropriate abstract models for addressing programming problems
+    - Localize debugging
+
+
+- ***Unit testing*** A best practice in Java programming is to include `main()` in every library of static methods that
+  tests the methods in the library.
+
+
+- ***External libraries*** We use static methods from three different kinds of libraries, each requiring (slightly)
+  differing procedures for code reuse.
+    - Standard system libraries in `java.lang`, including `java.lang.Math`, `java.lang.Integer`, and `java.lang.Double`.
+      These libraries are available in Java.
+    - Imported system libraries such as `java.util.Arays`. An `import` statement at the beginning of the program is
+      needed to use such libraries.
 
 <a name="115"></a>
 
