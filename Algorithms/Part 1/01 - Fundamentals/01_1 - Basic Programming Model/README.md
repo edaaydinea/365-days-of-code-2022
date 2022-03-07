@@ -8,9 +8,9 @@
         2. [Statements](#112)
         3. [Arrays](#113)
         4. [Static Methods](#114)
-        5. [Recursion](#115)
-        6. [APIs](#116)
-        7. [Strings](#117)
+        5. [APIs](#115)
+        6. [Strings](#116)
+        7. [Binary Search](#117)
 
 <a name="1"></a>
 
@@ -346,6 +346,18 @@ This situation is known as _**aliasing**_ and can lead to subtle bugs.
 <a name="114"></a>
 
 #### Static methods
+
+<a name="115"></a>
+
+#### APIS
+
+<a name="116"></a>
+
+#### Strings
+
+<a name="117"></a>
+
+#### Binary Search
 
 ## Resources
 
