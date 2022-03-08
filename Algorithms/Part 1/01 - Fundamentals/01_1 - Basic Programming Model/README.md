@@ -402,6 +402,27 @@ class StaticMethods {
     - Recursive calls must address sub-problems that are *smaller* in some sense,so that recursive calls converge to the
       base case. -Recursive calls should not address sub-problems that *overlap*.
 
+```java
+class RecursiveBinarySearch {
+    public static int rank(int key, int[] a) {
+        return rank(key, a, 0, a.length - 1);
+    }
+
+    public static int rank(int key, int[] a, int low, int high) {
+        // Index of key in a[], if present, is not smaller than low and not longer than high
+        if (low > high)
+            return -1;
+        int mid = low + (high - low) / 2;
+        if (key < a[mid])
+            return rank(key, a, low, mid - 1);
+        else if (key > a[mid])
+            return rank(key, a, mid + 1, high);
+        else
+            return mid;
+    }
+}
+
+```
 
 - ***Basic programming model***. A *library of static methods* is a set of static methods that are defined in a Java
   class. A basic model for Java programming is to develop a program that addresses a specific computational task by
@@ -432,13 +453,108 @@ class StaticMethods {
 
 #### APIS
 
+A critical component of modular programming is documentation that explains the operation of library methods that are
+intended for use by others.
+
+Applications programming interfaces (APIs) that lists the library name and the signatures and short descriptions of each
+of the methods that we use.
+
+The purpose of an API is to seperate the client from the implementation: the client should know anothing about the
+implementation other that information given in the API, and the implementation should not take properties of any
+particular client into account.
 <a name="116"></a>
 
 #### Strings
 
+***Concatenation***
+
+````java
+class Concatenation {
+    public static void main(String[] args) {
+        String name = args[0];
+        String surname = args[1];
+
+        System.out.println("Welcome " + name + " " + surname + "!");
+    }
+}
+````
+
+***Conversion***
+
+Two primary uses of strings are to convert values that we can enter on a keyboard into data-type values and to convert
+data-type values to values that we can read on display.
+
+```java
+import java.util.Scanner;
+
+public class Conversion {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the telephone number:");
+        int telephone_number = scanner.nextInt();
+        System.out.print(telephone_number.toString());
+
+        // Other version
+        System.out.print("Enter the second telephone number:");
+        String telephone_number2 = scanner.next();
+        System.out.print(parseInt(telephone_number2));
+    }
+}
+```
+
+***Automatic Conversion***
+
+```java
+class AutomaticConversion {
+    public static void main(String[] args) {
+        System.out.println("The square root of 2.0 is " + Math.sqrt(2.0));
+    }
+}
+
+```
+
 <a name="117"></a>
 
 #### Binary Search
+
+````java
+import java.util.Arrays;
+
+public class BinarySearch {
+    public static int rank(int key, int[] a) {   // Array must be sorted.
+        int lo = 0;
+        int hi = a.length - 1;
+        while (lo <= hi) {   // Key is in a[lo ..hi] or not present.
+            int mid = lo + (hi - lo) / 2;
+            if (key < a[mid])
+                hi = mid - 1;
+            else if (key > a[mid])
+                lo = mid + 1;
+            else
+                return mid;
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] whitelist = In.readInts(args[0]);
+        Arrays.sort(whitelist);
+        while (!In.readInts.isEmpty()) {   // Read key, print if not in whitelist.
+            int key = StdIn.readInt();
+            if (rank(key, whitelist) == -1)
+                System.out.println(key);
+        }
+
+    }
+}
+````
+
+This static method `rank()` takes an integer key and a sorted array of `int` values as arguments and returns the index
+of the key if it is present in the array, -1 otherwise. It accomplishes this task by maintaining variables `lo`and `hi`
+such that the key is in `a[lo..hi]` if it is in the array, then entering into a loop that tests the middle entry in the
+interval (at index mid). If the key is equal to `a[mid]`, the return value is mid; otherwise the method cuts the
+interval size about in half, looking at the left half if the key is less than `a[mid]` and at the right half if the key
+is greater than `a[mid]`. The process terminates when the key is found or the interval is empty.
 
 ## Resources
 
