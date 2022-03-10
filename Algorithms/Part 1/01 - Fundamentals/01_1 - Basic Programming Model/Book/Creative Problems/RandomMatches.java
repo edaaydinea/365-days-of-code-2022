@@ -1,6 +1,8 @@
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+import java.util.Arrays;
+
 public class RandomMatches {
     public static void main(String[] args) {
 
