@@ -119,14 +119,12 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
           <li>Books:
             <ul>
               <li><a href="https://www.amazon.com/Algorithms-Part-I-Robert-Sedgewick-ebook/dp/B00I50LKYW" target="_blank" rel="noopener noreferrer">Algorithms - Part I</a></li>
-              <li><a href="https://www.amazon.com/Algorithms-Part-II-Robert-Sedgewick-ebook/dp/B00I50LKWY" target="_blank" rel="noopener noreferrer">Algorithms - Part II</a></li>
             </ul>
           </li>
           <li> Lectures:
             <ul>
               <li><a href="https://www.coursera.org/specializations/cancer-biology" target="_blank" rel="noopener noreferrer">Cancer Biology Specialization</a></li>
               <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
-              <li><a href="https://www.coursera.org/learn/algorithms-part2" target="_blank" rel="noopener noreferrer">Algorithm - Part 2</a></li>
             </ul>
           </li>
           <li> Master Program:
