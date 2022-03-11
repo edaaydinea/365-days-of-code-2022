@@ -134,8 +134,7 @@ This coding challenge aims to progress from ***Python programming to Computer Vi
               <li> Neuroengineering:
                 <ul>
                   <li>Neurobiology</li>
-                  <li>Computational Neuroscience</li>
-                  <li>Neurolinguistics</li>
+                  <li>Neuroscience: Neurons and Networks</li>
                 </ul>
               </li>
             </ul>
