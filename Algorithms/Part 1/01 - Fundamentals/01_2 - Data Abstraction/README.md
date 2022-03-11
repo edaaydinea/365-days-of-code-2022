@@ -38,34 +38,30 @@ range of data types available in Java programming is open-ended, because you can
   programming interface (API), which is a list of _constructors_ and _instance methods_ (operations), with an informal
   description of the effect of each, as in this API for `Counter`:
 
-<table style="height: 127px; width: 94.1762%; border-collapse: collapse; border-style: outset;" border="1">
+<table style="height: 91px; width: 96.4489%; border-collapse: collapse; border-style: outset;" border="1">
 <tbody>
 <tr style="height: 19px;">
-<td style="width: 99.9999%; height: 19px; border-style: hidden;" colspan="4"><code>public class <span style="color: #ff0000;">Counter</span></code></td>
+<td style="width: 87.5243%; height: 19px; border-style: hidden;" colspan="3"><code>public class <span style="color: #ff0000;">Counter</span></code></td>
 </tr>
 <tr style="height: 18px;">
-<td style="width: 26.7143%; height: 18px; border-style: hidden;">&nbsp;</td>
-<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
-<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>Counter(String id)</code></td>
-<td style="width: 48.3344%; height: 18px; border-style: hidden;"><span style="color: #ff0000;"><em>create a counter named</em> <code>id</code></span></td>
+<td style="width: 21.1178%; height: 18px; border-style: hidden;">&nbsp;</td>
+<td style="width: 21.6067%; height: 18px; border-style: hidden;"><code>Counter(String id)</code></td>
+<td style="width: 44.7998%; height: 18px; border-style: hidden;"><span style="color: #ff0000;"><em>create a counter named</em> <code>id</code></span></td>
 </tr>
 <tr style="height: 18px;">
-<td style="width: 26.7143%; height: 18px; text-align: right; border-style: hidden;"><code>void</code></td>
-<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
-<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>increment()</code></td>
-<td style="width: 48.3344%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">increment the counter by one</span></em></td>
+<td style="width: 21.1178%; height: 18px; text-align: right; border-style: hidden;"><code>void</code></td>
+<td style="width: 21.6067%; height: 18px; border-style: hidden;"><code>increment()</code></td>
+<td style="width: 44.7998%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">increment the counter by one</span></em></td>
 </tr>
 <tr style="height: 18px;">
-<td style="width: 26.7143%; height: 18px; text-align: right; border-style: hidden;"><code>int</code></td>
-<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
-<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>tally()</code></td>
-<td style="width: 48.3344%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">number of increments since creation</span></em></td>
+<td style="width: 21.1178%; height: 18px; text-align: right; border-style: hidden;"><code>int</code></td>
+<td style="width: 21.6067%; height: 18px; border-style: hidden;"><code>tally()</code></td>
+<td style="width: 44.7998%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">number of increments since creation</span></em></td>
 </tr>
 <tr style="height: 18px;">
-<td style="width: 26.7143%; height: 18px; text-align: right; border-style: hidden;"><code>String</code></td>
-<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
-<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>toString()</code></td>
-<td style="width: 48.3344%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">string representation</span></em></td>
+<td style="width: 21.1178%; height: 18px; text-align: right; border-style: hidden;"><code>String</code></td>
+<td style="width: 21.6067%; height: 18px; border-style: hidden;"><code>toString()</code></td>
+<td style="width: 44.7998%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">string representation</span></em></td>
 </tr>
 </tbody>
 </table>
