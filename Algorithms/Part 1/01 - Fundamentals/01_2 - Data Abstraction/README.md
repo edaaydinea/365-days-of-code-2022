@@ -18,6 +18,58 @@
 
 ### Data Abstraction
 
+Programming in Java is largely based on building data types. This stype of programming is known as object-oriented
+programming, as it revolves around the concept of an object, an entity that holds a data type value. With Java's
+primitive types we are largely confined to programs that operate on numbers, but with reference types we can write
+programs that operate on strings, pictures, sounds, or any of hundreds of other abstractions that are available in
+Java's standard libraries or on our booksite. Even more significant than libraries of predefined data types is that the
+range of data types available in Java programming is open-ended, because you can define your own data types.
+
+- ***Data types*** A _data types_ is a set of values and a set od operations on those values.
+- ***Abstract data types*** An _abstract data type_ is a data type whose internal representation is hidden from the
+  client.
+- ***Objects*** An _object_ is an entity that can take on a data-type value. Objects are characterized by three
+  essential properties:
+    - The *state* of an object is a value from its data type
+    - The *identity* of an object distinguishes one object distinguishes one object from another
+    - The *behavior* of an object is the effect of data-type operations.
+- In Java, a *reference* is a mechanism for accessing an object.
+- ***Applications programming interface(API)*** To specify the behavior of an abstract data type, we use an application
+  programming interface (API), which is a list of _constructors_ and _instance methods_ (operations), with an informal
+  description of the effect of each, as in this API for `Counter`:
+
+<table style="height: 127px; width: 94.1762%; border-collapse: collapse; border-style: outset;" border="1">
+<tbody>
+<tr style="height: 19px;">
+<td style="width: 99.9999%; height: 19px; border-style: hidden;" colspan="4"><code>public class <span style="color: #ff0000;">Counter</span></code></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 26.7143%; height: 18px; border-style: hidden;">&nbsp;</td>
+<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
+<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>Counter(String id)</code></td>
+<td style="width: 48.3344%; height: 18px; border-style: hidden;"><span style="color: #ff0000;"><em>create a counter named</em> <code>id</code></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 26.7143%; height: 18px; text-align: right; border-style: hidden;"><code>void</code></td>
+<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
+<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>increment()</code></td>
+<td style="width: 48.3344%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">increment the counter by one</span></em></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 26.7143%; height: 18px; text-align: right; border-style: hidden;"><code>int</code></td>
+<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
+<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>tally()</code></td>
+<td style="width: 48.3344%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">number of increments since creation</span></em></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 26.7143%; height: 18px; text-align: right; border-style: hidden;"><code>String</code></td>
+<td style="width: 1.7667%; border-style: hidden;">&nbsp;</td>
+<td style="width: 23.1845%; height: 18px; border-style: hidden;"><code>toString()</code></td>
+<td style="width: 48.3344%; height: 18px; border-style: hidden;"><em><span style="color: #ff0000;">string representation</span></em></td>
+</tr>
+</tbody>
+</table>
+
 <a name="121"></a>
 
 #### Using abstract data types
