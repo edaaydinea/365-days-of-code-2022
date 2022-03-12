@@ -343,6 +343,12 @@ class Rolls {
 
 ***Geometric objects***
 
+A natural example of object-oriented programming is designing data types for geometric objects.
+
+- Point2D.java is a data type for points in the plane.
+- Interval1D.java is a data type for one-dimensional intervals
+- Interval2D.java is a data type for two-dimensional intervals.
+
 ```java
 import edu.princeton.cs.algs4.*;
 
@@ -377,11 +383,126 @@ class GeometricObjects {
 }
 ```
 
+This computation is a model for a method that reduces the problem of computing the area and volume of geometric shapes
+to the problem of determining whether a point falls within the shape or not.
+
 ***Information processing***
+
+Abstract data types provide a natural mechanism for organizing the information.
+
+- Date.java is a data tyoe that represents the day, month, and year.
+- Transaction.java is a data type that represents a customer, a date, and an amount.
+
+The idea is to define data types that allow us to keep information in objects that correspond to things in the real
+world.
+
+Each data type consists of constructors that create objects containing the data and methods for use by client code to
+access it.
+
+The focus of such data types is on encapsulating the data, while at the same time enabling the development of client
+code that does not depend on the representation of the data.
 
 ***Strings***
 
+A String is an indexed sequence for char values. String has dozens of instance methods, including the following:
+
+<table style="border-collapse: collapse; width: 100%; height: 217px;" border="1">
+<tbody>
+<tr style="height: 19px;">
+<td style="width: 33.3333%; height: 19px;" colspan="3"><code>public class <span style="color: #ff0000;">String</span></code></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; height: 18px;">&nbsp;</td>
+<td style="width: 33.3333%; height: 18px;"><code>String()</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>create an empty string</em></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>int</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>length()</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>length of the string</em></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>char</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>charAt(int i)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><code>i</code><em>th character</em></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>int</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>indexOf(String p)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>first occurrence of</em> <code>p</code> (-1 <em>if none</em>)</span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>int</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>indexOf(String p, int i)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>first occurrence of</em> <code>p</code> <em>after</em> <code>i</code> (-1 <em>if none</em>)</span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>String</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>concat(String t)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>this string</em> <em>with</em> <code>t</code> <em>appended</em></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>String</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>substring(int i, int j)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>substring of this string</em> (<code>i</code><em>th to</em> <code>j-1</code><em>st chars</em></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>String[]</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>split(String delim)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>strings between occurrences of</em> <code>delim</code></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>int</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>compareTo(String t)</code></td>
+<td style="width: 33.3333%; height: 18px;"><em><span style="color: #ff0000;">string comparison</span></em></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>boolean</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>equals(String t)</code></td>
+<td style="width: 33.3333%; height: 18px;"><span style="color: #ff0000;"><em>is this string's value the same as</em> <code>t</code><em>'s</em></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; text-align: right; height: 18px;"><code>int</code></td>
+<td style="width: 33.3333%; height: 18px;"><code>hashCode()</code></td>
+<td style="width: 33.3333%; height: 18px;"><em><span style="color: #ff0000;">hash code</span></em></td>
+</tr>
+</tbody>
+</table>
+
+`String` values are similar to arrays of characters, but the two are not the same. Arrays have built-in Java language
+syntax for accessing a character; `String`has instance methods for indexed access, length, and many other operations.
+
+`String` has special language support for initialization and concatenation: instead of creating and initializing a
+string with a constructor, we can use a string literal; instead of invoking the method `concat()` we can use the `+`
+operator.
+
 ***Input and output revisited***
+
+A disadvantage of the `StdIn`, `StdOut`, and `StdDraw` libraries is that they restrict us to working with just one input
+file, one output file, and one drawing for any given program. With object-oriented programming, we can define similar
+mechanisms that allow us to work with multiple input streams, output streams, and drawings within one program.
+Specifically, our standard library includes the data types In.java, Out.java, and Draw.java that support multiple input
+and output streams.
+
+````java
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.Out;
+
+class Cat {
+    public static void main(String[] args) {
+        // Copy input files to go out (last argument)
+        Out out = new Out(args[args.length - 1]);
+        for (int i = 0; i < args.length; i++) {
+            // Copy input file names on ith arg to out
+            In in = new In(args[i]);
+            String s = in.readAll();
+            out.println(s);
+            in.close();
+        }
+        out.close();
+    }
+}
+````
 
 <a name="123"></a>
 
