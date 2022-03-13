@@ -15,7 +15,10 @@ public class Ramanujan {
                 boolean test = Math.pow(i, 3) + Math.pow(j, 3) == num;
                 if (test) {
                     result += 1;
-                    System.out.printf("( %d , %d ) = Sum = % d \n", (int) Math.pow(i, 3), (int) Math.pow(j, 3), (int) Math.pow(i, 3) + (int) Math.pow(j, 3));
+                    System.out.printf("( %d , %d ) = Sum = % d \n",
+                            (int) Math.pow(i, 3),
+                            (int) Math.pow(j, 3),
+                            (int) Math.pow(i, 3) + (int) Math.pow(j, 3));
                 }
             }
         }
