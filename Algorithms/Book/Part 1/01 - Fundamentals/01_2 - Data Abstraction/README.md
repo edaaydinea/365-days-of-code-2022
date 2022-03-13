@@ -390,7 +390,7 @@ to the problem of determining whether a point falls within the shape or not.
 
 Abstract data types provide a natural mechanism for organizing the information.
 
-- Date.java is a data tyoe that represents the day, month, and year.
+- Date.java is a data type that represents the day, month, and year.
 - Transaction.java is a data type that represents a customer, a date, and an amount.
 
 The idea is to define data types that allow us to keep information in objects that correspond to things in the real
@@ -508,15 +508,245 @@ class Cat {
 
 #### Implementing abstract data types
 
+We implement ADTs with a Java class, putting the code in a file with the same name as the class, followed by the .java
+extension.
+
+The first statements in the file declare _instance variables_ that define the data-type values.Following the instance
+variables are the constructor and the instance methods that implement operations on data-type values.
+
+In instance methods may be _public_ (specified in the API) or _private_ (used to organize the computation and not
+available to clients).
+
 ***Instance variables***
+
+To define data-type values (the state of each object), we declare instance variables in much the same way as we declare
+local variables. There are numerous values corresponding to each instance variables (one for each object that is an
+instance of the data type) Each declaration is qualified by _visibility modifier_. In ADT implementations, we
+use `private`, using a Java language mechanism to enforce the idea that representation of an ADT is to be hidden from
+the client, and also `final, if the value is not to be changed once it is initialized.
+
+````java
+public class Counter {
+    // instance variable declarations
+    private final String name;
+    private int count;
+}
+````
 
 ***Constructors***
 
+Every Java class has at easy one *constructor* that establishes an object's _identity_. A constructor is like a static
+method, but it can refer directly to instance variables and has no return value. Generally, the purpose of a constructor
+is to initialize the instance variables.Every constructor creates an object and provides to the client a reference to
+that object.
+
+Constructors always share the same name as the class. We can overload the name and have multiple constructors with
+different signatures, just as with methods. If no other constructor is defined, a default no-argument constructor is
+implicit, has no arguments, and initializes instance values to default values. The default values of instance variables
+are 0 for primitive numeric types, `false` for `boolean`, and `null`.
+
 ***Instance methods***
+
+Instance methods specify the data-type operations. Each instance method has a return type, a signature (which specifies
+its name and the types and names of its parameter variables), and a _body_ (which consists of a sequence of statements,
+including a _return_ statement that provides a value of the return type back to the client). When a client invokes a
+method, the parameter values (if any) are initialized with client values, the statements are executed, until a return
+value is computed, and the value is returned to the client. Instance methods may be _public_ (specified in the API) or
+private (used to organize the computation and not available to clients).
+
+````java
+
+import edu.princeton.cs.algs4.Count;
+import edu.princeton.cs.algs4.StdOut;
+
+public class Counter {   /*Counter is a Class name*/
+
+    // instance variables
+    private final String name;
+    private int count;
+
+    // constructor
+    public Counter(String id)  /*Counter is a Class name*/ {
+        /*
+                public is visibility modifier.
+                There is no return type.
+                Counter is a constructor name (same as class name).
+                String is a parameter variable.
+                
+                public Counter(String id) is a signature.
+         */
+        name = id; // name = id; is a code to initialize instance variables. (count initialized to 0 by default)
+
+    }
+
+    // instance methods
+    public void increment() {
+        /*
+                public is visibility modifier.
+                void is return type.
+                increment() is a method name.
+                
+                public void increment() is a signature.
+         */
+        count++; // count is an instance variable name.
+    }
+
+    public int tally() {
+        return count;
+    }
+
+    public String toString() {
+        return count + " " + name; /* name is an instance variable name */
+    }
+
+    // test client
+    public static void main(String[] args) {
+        // create and initialize objects
+        Counter heads = new Counter("heads");
+        Counter tails = new Counter("tails"); /* Counter("tails") is a invoke constructor */
+
+        heads.increment();
+        heads.increment();
+        tails.increment();
+
+        StdOut.println(heads + " " + tails); /* Automatically invoke toString */
+        StdOut.println(heads.tally() - tails.tally()); /* tails is an object name, tally() is an invoke method */
+
+    }
+}
+````
 
 ***Scope***
 
+Instance methods use three kinds of variables: parameter variables, local variables, and instance variables. The first
+two of these are the same as for static methods: parameter variables are specified in the method signature and
+initialized with client values when the method is called, and local variables are declared and initialized within the
+method body. The scope of parameter variables is the entire method; the scope of local variables is the following
+statements in the block where they are defined. Instance variables hold data-type values for objects in a class, and
+their scope is the entire class (whenever there is an ambiguity, you can use the `this` prefix to identify instance
+variables).
+
+````java
+import edu.princeton.cs.algs4.StdOut;
+
+public class Scope {
+    private int var; //instance variable
+
+    private void method1() {
+        int var; // local variable
+
+        StdOut.println(var);        //refers to a local variable, NOT instance variable
+        StdOut.println(this.var);   // refers to  instance variable
+    }
+
+    private void method2() {
+        StdOut.println(var);        // refers to instance variable
+    }
+}
+````
+
 ***API, clients, and implementations***
+
+Every ADT implementation that we will consider will be a Java class with private instance variables, constructors,
+instance methods, and a client. To fully understand a data type, we need the API, typical code, and implementation.
+
+We think about the these of a client, to accommodate them in an ADT, following these 3 steps:
+
+- Specify an API. The purpose of the API is to _separate clients from implementations_, to enable modular programming.
+  We have 2 goals when specifying an API.
+    1. We want to enable clear and correct client code.
+    2. We want to be able to implement the operations.
+- Implement a Java class that meets the API specifications.
+    1. We choose the instance variables.
+    2. We write constructors and the instance methods.
+- Develop multiple test clients, to validate the design decisions made in the first two steps.
+
+**API**
+
+<table style="border-collapse: collapse; width: 100%; height: 95px;" border="1">
+<tbody>
+<tr style="height: 19px;">
+<td style="width: 6.96023%; height: 19px;">API</td>
+<td style="width: 93.0398%; height: 19px;" colspan="3"><code>public class <span style="color: #ff0000;">Counter</span></code></td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 6.96023%; height: 76px;" rowspan="4">&nbsp;</td>
+<td style="width: 13.9205%; text-align: right; height: 19px;">&nbsp;</td>
+<td style="width: 25.2841%; height: 19px;"><code>Counter (String id)</code></td>
+<td style="width: 53.8352%; height: 19px;"><span style="color: #ff0000;"><em>create a counter named&nbsp;</em><code>id</code></span></td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 13.9205%; text-align: right; height: 19px;"><code>void</code></td>
+<td style="width: 25.2841%; height: 19px;"><code>increment()</code></td>
+<td style="width: 53.8352%; height: 19px;"><span style="color: #ff0000;"><em>increment the counter</em></span></td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 13.9205%; text-align: right; height: 19px;"><code>int</code></td>
+<td style="width: 25.2841%; height: 19px;"><code>tally()</code></td>
+<td style="width: 53.8352%; height: 19px;"><span style="color: #ff0000;"><em>number of increments since creation</em></span></td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 13.9205%; text-align: right; height: 19px;"><code>String</code></td>
+<td style="width: 25.2841%; height: 19px;"><code>toString()</code></td>
+<td style="width: 53.8352%; height: 19px;"><span style="color: #ff0000;"><em>string representation</em></span></td>
+</tr>
+</tbody>
+</table>
+
+**Typical Client**
+
+````java
+import edu.princeton.cs.algs4.Counter;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+
+public class Flips {
+    public static void main(String[] args) {
+        int T = Integer.parseInt(args[0]);
+
+        Counter heads = new Counter("heads");
+        Counter tails = new Counter("tails");
+
+        for (int t = 0; t < T; t++) {
+            if (StdRandom.bernoulli(0.5))
+                heads.increment();
+            else tails.increment();
+        }
+        StdOut.println(heads);
+        StdOut.println(tails);
+        int d = heads.tally() - tails.tally();
+        StdOut.println("delta: " + Math.abs(d));
+    }
+}
+````
+
+**Implementation**
+
+````java
+public class Counter {
+    private final String name;
+    private int count;
+
+    public Counter(String id) {
+        name = id;
+    }
+
+    public void increment() {
+        count++;
+    }
+
+    public int tally() {
+        return count;
+    }
+
+    public String toString() {
+        return "Counter{" +
+                "name='" + name + '\'' +
+                ", count=" + count +
+                '}';
+    }
+}
+````
 
 <a name="124"></a>
 
@@ -559,3 +789,8 @@ class Cat {
 ***Exceptions and errors***
 
 ***Assertions***
+
+## Resources
+
+- [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
+- [Algorithms, Part 1 - Coursera](https://www.coursera.org/learn/algorithms-part1)
