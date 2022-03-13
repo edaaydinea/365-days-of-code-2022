@@ -560,4 +560,3 @@ is greater than `a[mid]`. The process terminates when the key is found or the in
 
 - [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
 - [Algorithms, Part 1 - Coursera](https://www.coursera.org/learn/algorithms-part1)
-- [Algorithms, Part 2 - Coursera](https://www.coursera.org/learn/algorithms-part2)
