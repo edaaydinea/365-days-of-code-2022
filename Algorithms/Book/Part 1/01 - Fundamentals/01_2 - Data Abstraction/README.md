@@ -752,43 +752,458 @@ public class Counter {
 
 #### More implementation of abstract data types
 
-***Date***
-
 ***Maintaining multiple implementations***
+
+* *First implementation*
+    * ````java
+      import edu.princeton.cs.algs4.StdOut;
+    
+      class Date {
+    
+          private final int month;
+          private final int day;
+          private final int year;
+    
+          public Date(int m, int d, int y) {
+              month = m;
+              day = d;
+              year = y;
+          }
+    
+          public int getMonth() {
+              return month;
+          }
+    
+          public int getDay() {
+              return day;
+          }
+    
+          public int getYear() {
+              return year;
+          }
+    
+          @Override
+          public String toString() {
+              return "Date{" +
+                      "month=" + month +
+                      ", day=" + day +
+                      ", year=" + year +
+                      '}';
+          }
+    
+          public static void main(String[] args) {
+              int m = Integer.parseInt(args[0]);
+              int d = Integer.parseInt(args[1]);
+              int y = Integer.parseInt(args[2]);
+              Date date = new Date(m, d, y);
+              StdOut.println(date);
+          }
+      }
+      ````
+
+* *Second implementation*
+    * ```java
+        class Date{
+            private final  int value;
+          
+            public Date(int m, int d, int y){
+                value = y * 512 + m * 32 + d;
+            }
+            public int month(){
+                return (value / 32) % 16;
+            }
+            public int day(){ 
+                return value % 32;
+            }
+          
+            public int year() {
+                return value / 512;
+            }
+  
+            @Override
+            public String toString() {
+              return "Date{" +
+                      "month=" + month() +
+                      ", day=" + day() +
+                      ", year=" + year() +
+                      '}';
+          }
+  
+            public static void main(String[] args) {
+                int m = Integer.parseInt(args[0]);
+                int d = Integer.parseInt(args[1]);
+                int y = Integer.parseInt(args[2]);
+                Date date = new Date(m, d, y);
+                StdOut.println(date);
+            }
+        }
+    ```
 
 ***Accumulator***
 
+````java
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+
+public class Accumulator {
+    private double total;
+    private int N;
+
+    public void addDataValue(double val) {
+        N++;
+        total += val;
+    }
+
+    public double mean() {
+        return total / N;
+    }
+
+    @Override
+    public String toString() {
+        return "Mean (" + N + " values): "
+                + String.format("%7.5f", mean());
+    }
+}
+
+public class TestAccumulator {
+    public static void main(String[] args) {
+        int T = Integer.parseInt(args[0]);
+        Accumulator accumulator = new Accumulator();
+        for (int t = 0; t < T; t++) {
+            accumulator.addDataValue(StdRandom.random());
+        }
+        StdOut.println(accumulator);
+    }
+}
+````
+
 ***Visual accumulator***
+
+```java
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+
+class TestVisualAccumulator {
+    public static void main(String[] args) {
+        int T = Integer.parseInt(args[0]);
+        VisualAccumulator a = new VisualAccumulator(T, 1.0);
+        for (int t = 0; t < T; t++)
+            a.addDataValue(StdRandom.random());
+        StdOut.println(a);
+    }
+}
+
+public class VisualAccumulator {
+    private double total;
+    private int N;
+
+    public VisualAccumulator(int trials, double max) {
+        StdDraw.setXscale(0, trials);
+        StdDraw.setYscale(0, max);
+        StdDraw.setPenRadius(.005);
+    }
+
+    public void addDataValue(double val) {
+        N++;
+        total += val;
+        StdDraw.setPenColor(StdDraw.DARK_GRAY);
+        StdDraw.point(N, val);
+        StdDraw.setPenColor(StdDraw.RED);
+        StdDraw.point(N, mean());
+    }
+
+    public double mean() {
+        return total / N;
+    }
+
+    @Override
+    public String toString() {
+        return "Mean (" + N + " values): "
+                + String.format("%7.5f", mean());
+    }
+}
+```
 
 <a name="125"></a>
 
 #### Designing abstract data types
 
+An abstract data type is a data type whose representation is hidden from the client.
+
+Our goal is to put important information related to designing data types in one place for reference and to set the stage
+for implementations.
+
 ***Encapsulation***
+
+A hallmark of object-oriented programming is that it enables us to encapsulate data types within their implementations,
+to facilitate separate development of clients and data type implementations. Encapsulation enables modular programming,
+allowing us to
+
+- Independently develop client and implementation code
+- Substitute improved implementations without affecting clients
+- Support programs not yet written (the API is a guide for any future client)
+
+Encapsulation also isolates data-type operations, which leads to the possibility of
+
+- Limiting the potential for error
+- Adding consistency checks and other debugging tools in implementations
+- Clarifying client code
+
+An encapsulated data type can be used by any client, so it extends the Java language.
+
+_You do not need to know how a data_ type is implemented in order to use it, and _you can assume that a client knows
+nothing but the API_ when implementing a data type. Encapsulation is the key to attaining both of these advantages.
 
 ***Designing APIs***
 
+One of the most important and most challenging steps in building modern software is designing APIs.
+
+Articulating an API might seem to be overkill when writing a small program, but you should consider writing every
+program as though you will need to reuse the code someday.Ideally, an API would clearly articulate behavior for all
+possible inputs, including side effects, and then we would have software to check that implementations meet the
+specification. Unfortunately, a fundamental result from theoretical computer science known as the specification problem
+implies that this goal is actually impossible to achieve.
+
+There are numerous potential pitfalls when designing an API:
+
+* An API may be too hard to implement, implying implementations that are difficult or impossible to develop.
+* An API may be too hard to use, leading to client code that is more complicated than it would be without the API.
+* An API may be too narrow, omitting methods that clients need.
+* An API may be too wide, including a large number of methods not needed by any client. This pitfall is perhaps the most
+  common, and one of the most difficult to avoid. The size of an API tends to grow over time because it is not difficult
+  to add methods to an existing API, but it is difficult to remove methods without breaking existing clients.
+* An API may be too general, providing no useful abstractions.
+* An API may be too specific, providing abstractions so detailed or so diffuse as to be useless.
+* An API may be too dependent on a particular representation, therefore not serving the purpose of freeing client code
+  from the details of using that representation. This pitfall is also difficult to avoid, because the representation is
+  certainly central to the development of the implementation.
+
+These considerations are sometimes summarized in yet another motto: provide to clients the methods they need and no
+others.
+
 ***Algorithms and abstract data types***
+
+Data abstraction is naturally suited to the study of algorithms, because it helps us provide a framework within which we
+can precisely specify both what an algorithm needs to accomplish and how a client can make use of an algorithm.
+
+Data abstraction enables us to:
+
+- Precisely specify what algorithms can provide for clients
+- Separate algorithms implementations from the client code
+- Develop layers of abstraction, where we make use of well-understood algorithms to develop other algorithms
+
+````java
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StaticSETofInts;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
+public class Whitelist {
+    public static void main(String[] args) {
+        int[] w = In.readInts(args[0]);
+        StaticSETofInts seTofInts = new StaticSETofInts(w);
+        while (!StdIn.isEmpty()) {
+            // Read key, print if not in whitelist
+            int key = StdIn.readInt();
+            if (!seTofInts.contains(key)) {
+                StdOut.println(key);
+            }
+        }
+    }
+}
+
+public class StaticSETofInts {
+    private int[] a;
+
+    public StaticSETofInts(int[] keys) {
+        a = new int[keys.length];
+        for (int i = 0; i < keys.length; i++)
+            a[i] = keys[i]; // defensive copy
+        Arrays.sort(a);
+    }
+
+    public boolean contains(int key) {
+        return rank(key) != -1;
+    }
+
+    private int rank(int key) {
+        // Binary search.
+        int lo = 0;
+        int hi = a.length - 1;
+        while (lo <= hi) {
+            // Key is in a[lo..hi] or not present.
+            int mid = lo + (hi - lo) / 2;
+            if (key < a[mid])
+                hi = mid - 1;
+            else if (key > a[mid])
+                lo = mid + 1;
+            else
+                return mid;
+        }
+        return -1;
+    }
+}
+````
 
 ***Interface inheritance***
 
+Java provides language support for defining relationships among objects, know as inheritance.
+
+The first inheritance mechanism that we consider is known as subtyping , which allows us to specify a relationship
+between otherwise unrelated classes by specifying in an interface a set of common methods that each implementing class
+must contain.
+
+An implementing class inherits the interface. Interface inheritance allows us to write client programs that can
+manipulate objects of any type that implements the interface (even a type to be created in the future), by invoking
+methods in the interface.
+
 ***Implementation inheritance***
+
+Java also supports another inheritence mechanism known as subclassing, which is a powerful technique that enables a
+programmer to change behavior and add functionality without rewriting an entire class from scratch. The idea is to
+define a new class(subclass , or derived class) that inherits instance methods and instance variables from another
+class(superclass , or base class). The subclass contains more methods than the superclass. The subclass can redefine or
+override methods in the superclass.
+
+Subclassing is widely used by systems programmers to build so-called extensible libraries
 
 ***String conversion***
 
+Every Java type inherits `toString()`
+from Object , so any client can invoke `toString()`
+for any object. This convention is the basis for Java’s automatic conversion of one operand of the concatenation
+operator + to a String whenever the other operand is a String .
+
 ***Wrapper types***
+
+Java supplies built-in reference types known as wrapper types , one for each of the primitive types:
+`Boolean` , `Byte` , `Character` , `Double` , `Float` , `Integer` , `Long` , and `Short` correspond to `boolean`
+, `byte` , `char` , `double` ,
+`float` , `int` , `long` , and `short` , respectively. These classes consist primarily of static methods such as
+`parseInt()`
+but they also include the inherited instance methods `toString()`
+, `compareTo()`
+, `equals()`
+, and `hashCode()`
+.
+
+When an int value is concatenated with a `String` , it is converted to an Integer that can invoke `toString()`.
 
 ***Equality***
 
+If we test equality with
+(a == b)
+where a and b are reference variables of the same type, we are testing whether they have the same identity: whether the
+references are equal.
+
+````java
+public class Date {
+    private final int month;
+    private final int day;
+    private final int year;
+
+    public Date(int m, int d, int y) {
+        month = m;
+        day = d;
+        year = y;
+    }
+
+    public int month() {
+        return month;
+    }
+
+    public int day() {
+        return day;
+    }
+
+    public int year() {
+        return year;
+    }
+
+    public String toString() {
+        return month() + "/" + day() + "/" + year();
+    }
+
+    public boolean equals(Object x) {
+        if (this == x) return true;
+        if (x == null) return false;
+        if (this.getClass() != x.getClass()) return false;
+        Date that = (Date) x;
+        if (this.day != that.day)
+            return false;
+        if (this.month != that.month)
+            return false;
+        return this.year == that.year;
+    }
+}
+````
+
 ***Memory management***
+
+The ability to assign a new value to a reference variable creates the possibility that a program may have created an
+object that can no longer be referenced.
+
+Objects are also orphaned when they go out of scope. Java programs tend to create huge numbers of objects (and variables
+that hold primitive data-type values), but only have a need for a small number of them at any given point in time.
+
+Memory management turns out to be easier for primitive types because all the information needed for memory allocation is
+known at compile time.
+
+Memory management for objects is more complicated: the system can allocate memory for an object when it is created, but
+cannot know precisely when to free the memory associated with each object because the dynamics of a program in execution
+determines when objects are orphaned.
+
+One of Java's most significant features is its ability to automatically manage memory.
 
 ***Immutability***
 
+An immutable data type, such as `Date`, has the property that the value of an object never changes once constructed.
+
+The purpose of the abstraction is to encapsulate values that do not change so that we can use them in assignment
+statements and as arguments and return values from functions in the same way we use primitive types (without having to
+worry about their values changing).
+
+`String` objects are immutable because we generally do not want `String` values to change, and Java arrays are mutable
+because we generally do want arrays values to change.
+
+Generally, immutable types are easier to use and harder to misuse than mutable types because the scope of code that can
+change their values is far smaller. It is easier to debug code that uses immutable types because it is easier to
+guarantee that variables in client code that uses them remain in a consistent state. When using mutable types, you must
+always be concerned about where and when their values change.
+
+If the type of data used for a binary search algorithm were mutable, then clients could invalidate our assumption that
+the array is sorted for binary search.
+
 ***Design by contact***
+
+We use two Java languages mechanism for this purpose:
+
+- Exceptions and errors, which generally handle unforeseen errors outside our control
+- Assertions, which verify assumptions that we make within code we develop
 
 ***Exceptions and errors***
 
+Exceptions and errors are disruptive events that occur while a program is running, often to signal an error. The action
+taken is known as throwing an exception or throwing an error.
+
+A general practice known as fail fast programming suggests that an error is more easily pinpointed if an exception is
+thrown as soon as an error is discovered.
+
 ***Assertions***
+
+An assertion is a boolean expression that you are affirming is true at that point in the program.
+
+We use assertions both to gain confidence in the correctness of programs and to document intent.
+
+If this value were negative, it would cause an ArrayIndexOutOfBoundsException sometime later.
+
+````
+assert index >= 0 : "Negative index in method X";
+````
+
+Assertions are for debugging: your program should not rely on assertions for normal operation since they may be
+disabled.
 
 ## Resources
 
