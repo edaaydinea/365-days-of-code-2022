@@ -235,14 +235,549 @@ public class Evaluate {
 #### Implementing collections
 
 ***Fixed-capacity stack***
+The API differs from our Stack API: it works only for String values, it requires the client to specify a capacity, and
+it does not support iteration. The primary choice in developing an API implementation is to choose a representation for
+the data.
+
+For `FixedCapcpcityStackOfStrings`, an obvious choice to use an array of String values.
+
+The instance variables are an array a[] that holds the items in the stack and an integer N that counts the number of
+items in the stack. To remove an item, we decrement N and then return a[N]; to insert a new item, we set a[N] equal to
+the new item and then increment N. These operations preserve the following properties:
+
+- The items in the array are in their order.
+- The stack is empty when N is 0.
+- The top of the stack (if it is nonempty) is at a[N-1].
+
+````java
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+public class FixedCapacityStackOfStrings implements Iterable<String> {
+    private String[] a;  // holds the items
+    private int N;       // number of items in stack
+
+    // create an empty stack with given capacity
+    public FixedCapacityStackOfStrings(int capacity) {
+        a = new String[capacity];
+        N = 0;
+    }
+
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    public boolean isFull() {
+        return N == a.length;
+    }
+
+    public void push(String item) {
+        a[N++] = item;
+    }
+
+    public String pop() {
+        return a[--N];
+    }
+
+    public String peek() {
+        return a[N - 1];
+    }
+
+    public Iterator<String> iterator() {
+        return new ReverseArrayIterator();
+    }
+
+
+    public class ReverseArrayIterator implements Iterator<String> {
+        private int i = N - 1;
+
+        public boolean hasNext() {
+            return i >= 0;
+        }
+
+        public String next() {
+            if (!hasNext()) throw new NoSuchElementException();
+            return a[i--];
+        }
+
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+    }
+
+
+    public static void main(String[] args) {
+        int max = Integer.parseInt(args[0]);
+        FixedCapacityStackOfStrings stack = new FixedCapacityStackOfStrings(max);
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-")) stack.push(item);
+            else if (stack.isEmpty()) StdOut.println("BAD INPUT");
+            else StdOut.print(stack.pop() + " ");
+        }
+        StdOut.println();
+
+        // print what's left on the stack
+        StdOut.print("Left on stack: ");
+        for (String s : stack) {
+            StdOut.print(s + " ");
+        }
+        StdOut.println();
+    }
+} 
+````
 
 ***Generics***
 
+If we want a stack of double values, we would need to develop another class with similar code, essentially replacing
+String with double everywhere.
+
+We replace every occurrence of String with Item and declare the class with the following first line of code:
+
+    public class FixedCapacityStack<Item>
+
+The name `Item` is a _type parameter_, a symbolic placeholder for sme concrete type to be used by the client. You can
+read `FixedCapacityStack<Item>` as _stack of items_, which is precisely what we want. When
+implementing `FixesCapacityStack` we do not know the actual type of `Item`, but a client can use our stack for any type
+of data by providing a concrete type when the stack is created. Concrete types must be reference types, but clients can
+depend on autoboxing to convert primitive types to their corresponding wrap per types.
+
+````java
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+public class FixedCapacityStack<Item> implements Iterable<Item> {
+    private Item[] a;    // holds the items
+    private int N;       // number of items in stack
+
+    // create an empty stack with given capacity
+    public FixedCapacityStack(int capacity) {
+        a = (Item[]) new Object[capacity];   // no generic array creation
+        N = 0;
+    }
+
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    public void push(Item item) {
+        a[N++] = item;
+    }
+
+    public Item pop() {
+        return a[--N];
+    }
+
+    public Iterator<Item> iterator() {
+        return new ReverseArrayIterator();
+    }
+
+
+    public class ReverseArrayIterator implements Iterator<Item> {
+        private int i = N - 1;
+
+        public boolean hasNext() {
+            return i >= 0;
+        }
+
+        public Item next() {
+            if (!hasNext()) throw new NoSuchElementException();
+            return a[i--];
+        }
+
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+    }
+
+
+    public static void main(String[] args) {
+        int max = Integer.parseInt(args[0]);
+        FixedCapacityStack<String> stack = new FixedCapacityStack<String>(max);
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-")) stack.push(item);
+            else if (stack.isEmpty()) StdOut.println("BAD INPUT");
+            else StdOut.print(stack.pop() + " ");
+        }
+        StdOut.println();
+
+        // print what's left on the stack
+        StdOut.print("Left on stack: ");
+        for (String s : stack) {
+            StdOut.print(s + " ");
+        }
+        StdOut.println();
+    }
+} 
+````
+
 ***Array resizing***
+
+In Java, we cannot change the size of an array once created, so the stack always uses space proportional to that
+maximum. A client that chooses a large capacity risks wasting a large amount of memory at times when the collection is
+empty or nearly empty.
+
+Moreover, every client risks overflow if the collection grows larger than the array.
+
+With this implementation, the stack never overflows and never becomes less than one quarter full.
+
+```java
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+class ResizingArrayStack<Item> implements Iterable<Item> {
+
+    // initial capacity of underlying resizing array
+    private static final int INIT_CAPACITY = 8;
+
+    private Item[] a;         // array of items
+    private int n;            // number of elements on stack
+
+
+    /**
+     * Initializes an empty stack.
+     */
+    public ResizingArrayStack() {
+        a = (Item[]) new Object[INIT_CAPACITY];
+        n = 0;
+    }
+
+    /**
+     * Is this stack empty?
+     * @return true if this stack is empty; false otherwise
+     */
+    public boolean isEmpty() {
+        return n == 0;
+    }
+
+    /**
+     * Returns the number of items in the stack.
+     * @return the number of items in the stack
+     */
+    public int size() {
+        return n;
+    }
+
+
+    // resize the underlying array holding the elements
+    private void resize(int capacity) {
+        assert capacity >= n;
+
+        // textbook implementation
+        Item[] copy = (Item[]) new Object[capacity];
+        if (n >= 0) System.arraycopy(a, 0, copy, 0, n);
+        a = copy;
+
+        // alternative implementation
+        // a = java.util.Arrays.copyOf(a, capacity);
+    }
+
+
+    /**
+     * Adds the item to this stack.
+     * @param item the item to add
+     */
+    public void push(Item item) {
+        if (n == a.length) resize(2 * a.length);    // double size of array if necessary
+        a[n++] = item;                            // add item
+    }
+
+    /**
+     * Removes and returns the item most recently added to this stack.
+     * @return the item most recently added
+     * @throws java.util.NoSuchElementException if this stack is empty
+     */
+    public Item pop() {
+        if (isEmpty()) throw new NoSuchElementException("Stack underflow");
+        Item item = a[n - 1];
+        a[n - 1] = null;                              // to avoid loitering
+        n--;
+        // shrink size of array if necessary
+        if (n > 0 && n == a.length / 4) resize(a.length / 2);
+        return item;
+    }
+
+
+    /**
+     * Returns (but does not remove) the item most recently added to this stack.
+     * @return the item most recently added to this stack
+     * @throws java.util.NoSuchElementException if this stack is empty
+     */
+    public Item peek() {
+        if (isEmpty()) throw new NoSuchElementException("Stack underflow");
+        return a[n - 1];
+    }
+
+    /**
+     * Returns an iterator to this stack that iterates through the items in LIFO order.
+     * @return an iterator to this stack that iterates through the items in LIFO order.
+     */
+    public Iterator<Item> iterator() {
+        return new ReverseArrayIterator();
+    }
+
+    // an iterator, doesn't implement remove() since it's optional
+    private class ReverseArrayIterator implements Iterator<Item> {
+        private int i;
+
+        public ReverseArrayIterator() {
+            i = n - 1;
+        }
+
+        public boolean hasNext() {
+            return i >= 0;
+        }
+
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+
+        public Item next() {
+            if (!hasNext()) throw new NoSuchElementException();
+            return a[i--];
+        }
+    }
+
+
+    /**
+     * Unit tests the {@code Stack} data type.
+     *
+     * @param args the command-line arguments
+     */
+    public static void main(String[] args) {
+        ResizingArrayStack<String> stack = new ResizingArrayStack<>();
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-")) stack.push(item);
+            else if (!stack.isEmpty()) StdOut.print(stack.pop() + " ");
+        }
+        StdOut.println("(" + stack.size() + " left on stack)");
+    }
+}
+```
 
 ***Loitering***
 
+Java’s garbage collection policy is to reclaim the memory associated with any objects that can no longer be accessed.
+
+Even when the client is done with the item, the reference in the array may keep it alive. This condition (holding a
+reference to an item that is no longer needed)
+is known as loitering .
+
+```java
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+class ResizingArrayQueue<Item> implements Iterable<Item> {
+    // initial capacity of underlying resizing array
+    private static final int INIT_CAPACITY = 8;
+
+    private Item[] q;       // queue elements
+    private int n;          // number of elements on queue
+    private int first;      // index of first element of queue
+    private int last;       // index of next available slot
+
+
+    /**
+     * Initializes an empty queue.
+     */
+    public ResizingArrayQueue() {
+        q = (Item[]) new Object[INIT_CAPACITY];
+        n = 0;
+        first = 0;
+        last = 0;
+    }
+
+    /**
+     * Is this queue empty?
+     * @return true if this queue is empty; false otherwise
+     */
+    public boolean isEmpty() {
+        return n == 0;
+    }
+
+    /**
+     * Returns the number of items in this queue.
+     * @return the number of items in this queue
+     */
+    public int size() {
+        return n;
+    }
+
+    // resize the underlying array
+    private void resize(int capacity) {
+        assert capacity >= n;
+        Item[] copy = (Item[]) new Object[capacity];
+        for (int i = 0; i < n; i++) {
+            copy[i] = q[(first + i) % q.length];
+        }
+        q = copy;
+        first = 0;
+        last = n;
+    }
+
+    /**
+     * Adds the item to this queue.
+     * @param item the item to add
+     */
+    public void enqueue(Item item) {
+        // double size of array if necessary and recopy to front of array
+        if (n == q.length) resize(2 * q.length);   // double size of array if necessary
+        q[last++] = item;                        // add item
+        if (last == q.length) last = 0;          // wrap-around
+        n++;
+    }
+
+    /**
+     * Removes and returns the item on this queue that was least recently added.
+     * @return the item on this queue that was least recently added
+     * @throws java.util.NoSuchElementException if this queue is empty
+     */
+    public Item dequeue() {
+        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        Item item = q[first];
+        q[first] = null;                            // to avoid loitering
+        n--;
+        first++;
+        if (first == q.length) first = 0;           // wrap-around
+        // shrink size of array if necessary
+        if (n > 0 && n == q.length / 4) resize(q.length / 2);
+        return item;
+    }
+
+    /**
+     * Returns the item least recently added to this queue.
+     * @return the item least recently added to this queue
+     * @throws java.util.NoSuchElementException if this queue is empty
+     */
+    public Item peek() {
+        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        return q[first];
+    }
+
+
+    /**
+     * Returns an iterator that iterates over the items in this queue in FIFO order.
+     * @return an iterator that iterates over the items in this queue in FIFO order
+     */
+    public Iterator<Item> iterator() {
+        return new ArrayIterator();
+    }
+
+    // an iterator, doesn't implement remove() since it's optional
+    private class ArrayIterator implements Iterator<Item> {
+        private int i = 0;
+
+        public boolean hasNext() {
+            return i < n;
+        }
+
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+
+        public Item next() {
+            if (!hasNext()) throw new NoSuchElementException();
+            Item item = q[(i + first) % q.length];
+            i++;
+            return item;
+        }
+    }
+
+    /**
+     * Unit tests the {@code ResizingArrayQueue} data type.
+     *
+     * @param args the command-line arguments
+     */
+    public static void main(String[] args) {
+        ResizingArrayQueue<String> queue = new ResizingArrayQueue<>();
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-")) queue.enqueue(item);
+            else if (!queue.isEmpty()) StdOut.print(queue.dequeue() + " ");
+        }
+        StdOut.println("(" + queue.size() + " left on queue)");
+    }
+
+}
+
+```
+
 ***Iteration***
+
+Iterators are generic, so we can use our parameterized type Item to allow clients to iterate through objects of whatever
+type is provided by our client.
+
+What is an iterator? An object from a class that implements the methods hasNext() and next()
+
+```java
+import java.util.Iterator;
+
+class ResizingArrayStack<Item> implements Iterable<Item> {
+    private Item[] a = (Item[]) new Object[1];
+    // stack items
+    private int N = 0;
+
+    // number of items
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    public int size() {
+        return N;
+    }
+
+    private void resize(int max) {
+        // Move stack to a new array of size max.
+        Item[] temp = (Item[]) new Object[max];
+        for (int i = 0; i < N; i++)
+            temp[i] = a[i];
+        a = temp;
+    }
+
+    public void push(Item item) {
+        // Add item to top of stack.
+        if (N == a.length) resize(2 * a.length);
+        a[N++] = item;
+    }
+
+    public Item pop() {
+        // Remove item from top of stack.
+        Item item = a[--N];
+        a[N] = null;
+        // Avoid loitering (see text).
+        if (N > 0 && N == a.length / 4) resize(a.length / 2);
+        return item;
+    }
+
+    public Iterator<Item> iterator() {
+        return new ReverseArrayIterator();
+    }
+
+    private class ReverseArrayIterator implements Iterator<Item> {
+        // Support LIFO iteration.
+        private int i = N;
+
+        public boolean hasNext() {
+            return i > 0;
+        }
+
+        public Item next() {
+            return a[--i];
+        }
+
+        public void remove() {
+        }
+    }
+}
+```
 
 <a name="123"></a>
 
