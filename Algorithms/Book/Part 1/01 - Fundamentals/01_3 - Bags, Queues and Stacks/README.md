@@ -49,7 +49,7 @@ placeholder for some concrete type to be used by the client. You can read `Stack
 implementing `Stack`, we do not know the concrete type of `Item`, but a client can use our stack for any type of data,
 including one defined long after we develop our implementation.
 
-Withoud generics, we would have to define (and implement) different APIs for each type of data we might need to collect;
+Without generics, we would have to define (and implement) different APIs for each type of data we might need to collect;
 with generics, we can use one API (and one implementation) for all types of daa, even types that are implemented in the
 future.
 
@@ -100,7 +100,7 @@ just wants to process each of the items in the collection.
 
 ***Bags***
 
-A bag is a collection where removing items is not supported.its purpose is to provide clients with the ability to
+A bag is a collection where removing items is not supported. Its purpose is to provide clients with the ability to
 collect items and then to iterate through the collected items. The order of iteration is unspecified and should be
 immaterial to the client.
 
@@ -157,9 +157,9 @@ class FIFO {
 }
 ````
 
-***Pushdown stacks***
+***Push down stacks***
 
-A pushdown stack (or just a stack) is a collection that is based on the last-in-first-out(LIFO) policy.
+A push-down stack (or just a stack) is a collection that is based on the last-in-first-out(LIFO) policy.
 
 The LIFO policy offered by a stack provides just the behavior that you expect. When a client iterates through the items
 in a stack with the foreach construct, the items are processed in the reverse of the order in which they were added. A
@@ -393,7 +393,7 @@ public class FixedCapacityStack<Item> implements Iterable<Item> {
 
     public static void main(String[] args) {
         int max = Integer.parseInt(args[0]);
-        FixedCapacityStack<String> stack = new FixedCapacityStack<String>(max);
+        FixedCapacityStack<String> stack = new FixedCapacityStack<>(max);
         while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
             if (!item.equals("-")) stack.push(item);
@@ -783,25 +783,394 @@ class ResizingArrayStack<Item> implements Iterable<Item> {
 
 #### Linked Lists
 
+A linked list is a recursive data structure that is either empty (null) or a reference to a node having a generic item
+and a reference to a linked list.
+
 ***Node record***
+
+A `Node` has two instance variables: an `Item` (a parametrized type) and a `Node`.
+
+- We define `Node` within the class where we want to use it, and make it `private` because iy not for use by clients.
+- The `Item` is placeholder for any data that we might want to structure with a linked list.
+- The instance variable of type `Node` characterizes the linked nature of the data structure.
+- If `first` is a variable associated with an object of type `Node`, we can refer to the instance variables with the
+  code `first.item`and `first.next`. Classes of this kind are sometimes called `records`.
 
 ***Building a linked list***
 
+We can represent a linked list with a variable of type Node simply by ensuring that its value is either _null_ or a
+reference t oa `Node` whose `next`field is a reference to a linked list.
+
+````java
+
+class Node {
+    public String item;
+    private Node next;
+
+    public Node(String item) {
+        this.item = item;
+        this.next = null;
+    }
+
+    public void setNextNode(Node node) {
+        this.next = node;
+    }
+
+    public Node getNextNode() {
+        return this.next;
+    }
+
+    public static void main(String[] args) {
+        Node first = new Node("to");
+        Node second = new Node("be");
+        Node third = new Node("or");
+
+        first.setNextNode(second);
+        second.setNextNode(third);
+    }
+}
+
+
+````
+
+`third.setNextNode` remains null, the value it initialized to at the time of creation.
+
+As a result, `third` is a linked list (it is a reference to a node that has a reference to `null` , which is the null
+reference to an empty linked list), and `second` is a linked list (it is a reference to a node that has a reference to
+`third` , which is a linked list), and `first` is a linked list (it is a reference to a node that has a reference
+to `second`
+, which is a linked list)
+
+    A linked list represents a sequence of items.
+
+The difference is that it is easier to insert items into the sequence and to remove items from the sequence with linked
+lists.
+
+When tracing code that uses linked lists and other linked structures, we use a visual representation where
+
+- We draw a rectangle to represent each object
+- We put the values of instance variables within the rectangle
+- We use arrows that point to the referenced objects to depict references
+
 ***Insert at the beginning***
+
+````java
+// save a link to the list
+Node oldfirst=first;
+
+// create a new node for the beginning
+        first=New Node();
+
+// set the instance variables in the new node
+        first.item="not";
+        first.next=oldfirst;
+````
 
 ***Remove from the beginning***
 
+Normally, you would retrieve the value of the item (by assigning it to some variable of type `Item`) before doing this
+assignment, because once you change the value of first, you may not have any access to the node to which it was
+referring. Typically, the node object becomes na orphan, and the Java memory management system eventually reclaims the
+memory it occupies.
+
 ***Insert at the end***
+
+We need a link to the last node in the list, because that node’s link has to be changed to reference a new node
+containing the item to be inserted.Maintaining an extra link is not something that should be taken lightly in
+linked-list code, because every method that modifies the list needs code to check whether that variable needs to be
+modified (and to make the necessary modifications).
+
+    This code does not work in the case the list is empty.
+
+````java
+// save a link to the last node
+Node oldlast=last;
+
+// create a new node for the end
+        last=new Node();
+        last.item="not";
+
+// link the new node to the end of the list
+        oldlast.next=last;
+````
 
 ***Insert / remove at other positions***
 
+Other operations, such as the following, are not so easily handled:
+
+- Remove a given node.
+- Insert a new node before a given node
+
+In the absence of any other information, the only solution is to traverse the entire list looking for the node that
+links to last. Such a solution is undesirable because it takes time proportional to the length of the list.
+
 ***Traversal***
+
+This idiom is as natural as the standard idiom for iterating through the items in an array.
 
 ***Stack implementation***
 
+It maintains the stack as a linked list, with the top of the stack at the beginning, referenced by an instance variable
+first .
+
+1. to push() an item, we add it to the beginning of the list
+2. to pop() an item, we remove it from the beginning of the list
+3. to implement size(), we keep track of the number of items in an instance variable N, incrementing N when we push and
+   decrementing N when we pop.
+4. to implement `isEmpty()` we check whether first is null
+
+This use of linked lists achieves our optimum design goals:
+
+- It can be used for any type of data.
+- The space required is always proportional to the size of the collection.
+- The time per operation is always independent of the size of the collection.
+
+````java
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+import org.w3c.dom.Node;
+
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class Stack<Item> //implements Iterable <Item>
+{
+    private Node first; // top of stack (most recently added node)
+    private int N; // number of items
+
+    private class Node {
+        //nested clas to define nodes
+        Item item;
+        Node next;
+    }
+
+    public boolean isEmpty() {
+        return first == null;
+    }
+
+    public int size() {
+        return N;
+    }
+
+    public void push(Item item) {
+        // Add item to top of stack
+        Node oldfirst = first;
+        first = new Node();
+        first.item = item;
+        first.next = oldfirst;
+        N++;
+    }
+
+    public Item pop() {
+        // Remove item from top of stack
+        Item item = first.item;
+        first = first.next;
+        N--;
+        return item;
+    }
+
+    public Iterator<Item> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item> {
+        private Node current = first;
+
+        public boolena hasNext() {
+            return current != null;
+        }
+
+        public void remove() {
+        }
+
+        @Override
+        public Item next() {
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Create a stack and push / pop strings as directed on StdIn
+        Stack<String> stringStack = new Stack<>();
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-"))
+                stringStack.push(item);
+            else if (!stringStack.isEmpty())
+                StdOut.print(stringStack.pop() + " ");
+        }
+
+        StdOut.println("(" + stringStack.size() + " left on stack)");
+    }
+}
+````
+
 ***Queue implementation***
 
+An implementation of our Queue API based on the linked-list data structure is also straightforward. It maintains the
+queue as a linked list in order from least recently to most recently added items, with the beginning of the queue
+referenced by an instance variable first and the end of the queue referenced by an instance variable last.
+
+    Thus, 
+    - to enqueue() an item, we add it to the end of the list.
+    - to dequeue() an item, we remove it from the beginning of the list
+
+    The implementation of size() and isEmpty() are the same as for Stack.
+
+As with Stack the implementation use the generic type parameter Item, and we omit the code to support iteration.
+
+This implementation uses the same _data structure_ as does Stack --a linked list-- but it implements different _
+algorithms_ for adding and removing items, which make the difference between LIFO and FIFO for the client.
+
+The use of linked lists achieves our optimum design goals: it can be used for any type of data, the space required is
+proportional to the number of items in the collection, and the time required per operation is always independent of the
+size of the collection.
+
+```java
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Iterator;
+
+class Queue<Item> // implements Iterable <Item>
+{
+    private Node first; // link to least recently added node
+    private Node last; // link to most recently added node
+    private int N; // number of items on the queue
+
+
+    private class Node {
+        // nested class to define nodes
+        Item item;
+        Node next;
+    }
+
+    public boolean isEmpty() {
+        return first == null;
+    }
+
+    public int size() {
+        return N;
+    }
+
+    public void enqueue(Item item) {
+        // Add item to the end of the list.
+        Node oldlast = last;
+        last = new Node();
+        last.item = item;
+        last.next = null;
+        if (isEmpty()) first = last;
+        else oldlast.next = last;
+        N++;
+    }
+
+    public Item dequeue() {
+        // Remove item from the beginning of the list
+        Item item = first.item;
+        first = first.next;
+        N--;
+        if (isEmpty()) last = null;
+        return item;
+    }
+
+    public Iterator<Item> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item> {
+        private Node current = first;
+
+        public boolena hasNext() {
+            return current != null;
+        }
+
+        public void remove() {
+        }
+
+        @Override
+        public Item next() {
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+    }
+
+}
+
+    public static void main(String[] args) {
+        // Create a stack and push / pop strings as directed on StdIn
+        Queue<String> stringQueue = new Queue<>();
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-"))
+                stringQueue.push(item);
+            else if (!stringQueue.isEmpty())
+                StdOut.print(stringQueue.pop() + " ");
+        }
+
+        StdOut.println("(" + stringQueue.size() + " left on queue)");
+    }
+}
+```
+
+Linked lists are a fundamental alternative to arrays for structuring a collection of data.
+
 ***Bag implementation***
+
+Implementing our Bag API using a linked-list data structure is simply a matter of changing the name of push()
+in Stack to add()
+and removing the implementation of pop().
+
+This implementation also highlights the code needed to make Stack , Queue , and Bag all iterable, by traversing the
+list.
+
+For Stack the list is in LIFO order; for Queue it is in FIFO order; and for Bag it happens to be in LIFO order, but the
+order is not relevant.
+
+````java
+import java.util.Iterator;
+
+public class Bag<Item> implements Iterable<Item> {
+    private Node first; // first node in list
+
+    private class Node {
+        Item item;
+        Node next;
+    }
+
+    public void add(Item item) {
+        // same as push() in Stack
+        Node oldfirst = first;
+        first = new Node();
+        first.item = item;
+        first.next = oldfirst;
+    }
+
+    public Iterator<Item> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item> {
+        private Node current = first;
+
+        public boolena hasNext() {
+            return current != null;
+        }
+
+        public void remove() {
+        }
+
+        @Override
+        public Item next() {
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+    }
+}
+````
 
 ## Resources
 
