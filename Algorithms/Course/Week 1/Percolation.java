@@ -1,10 +1,20 @@
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
+/******************************************************************************
+ *  Compilation:  javac-algs4 Percolation.java
+ *  Execution:    java-algs4 Percolation n
+ *
+ *  Percolation uses WeightedQuickUnionUF to connect open sites on an n x n grid
+ *  To determine if a system has a connected branch from top to bottom
+ *  "Does the system Percolate?"
+ *
+ ******************************************************************************/
+
 public class Percolation {
     private final int gridSites;
     private final boolean[][] grid;
-    private final WeightedQuickUnionUF dataStructureFS; // Full-site
-    private final WeightedQuickUnionUF dataStructureVS; // Virtual site
+    private final WeightedQuickUnionUF dataStructureFS; // Fullsite
+    private final WeightedQuickUnionUF dataStructureVS; // Virtualsite
     private final int sitesVS;
     private int openSites;
 
@@ -69,6 +79,12 @@ public class Percolation {
         return grid[row - 1][col - 1];
     }
 
+    public boolean isFull(int row, int col) {
+        cornerCases(row, col);
+        int fullSite = (row - 1) * gridSites + col;
+        return dataStructureFS.find(0) == dataStructureFS.find(fullSite);
+    }
+
     public int numberOfOpenSites() {
         return openSites;
     }
@@ -88,6 +104,13 @@ public class Percolation {
             throw new IllegalArgumentException("Argument is outside of its prescribed range");
         }
     }
+    /*
+    public void test() {
 
-
+        this.open(1, 1);
+        System.out.println(this.existsOnGrid(1, 1));
+        System.out.println(this.isFull(1, 1));
+        System.out.println(this.percolates());
+    }
+     */
 }
