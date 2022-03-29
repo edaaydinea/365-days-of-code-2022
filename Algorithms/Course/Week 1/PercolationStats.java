@@ -1,6 +1,16 @@
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
+/******************************************************************************
+ *  Compilation:  javac-algs4 PercolationStats.java
+ *  Execution:    java-algs4 PercolationStats n, trials
+ *
+ *  This file is dependent on Percolation.java
+ *  PercolationStats returns mean, stddev, & confidence intervals of Percolation.java
+ *  inputs are n (n x n grid) and trials (number of Percolation runs)
+ *
+ ******************************************************************************/
+
 public class PercolationStats {
     private final double[] x; // the fraction of open sites in computational experiment t
     private final int t; // the amount of times in which we study the computational experiment (at least 30)
