@@ -7,3 +7,7 @@
 *.class
 Algorithms/Course/Week 1/hello/logo.png
 *.ipynb_checkpoints
+C - C++ Programming/cmake-build-debug/.cmake/api/v1/query/cache-v2
+*.log
+*.exe
+*.cmake
