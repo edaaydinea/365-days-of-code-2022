@@ -1,5 +1,3 @@
-import edu.princeton.cs.algs4.StdAudio;
-
 public class AudioCollage {
     public static double[] amplify(double[] a, double alpha) {
         double[] b = new double[a.length];
