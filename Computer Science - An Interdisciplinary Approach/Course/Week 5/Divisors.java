@@ -2,26 +2,24 @@ public class Divisors {
     public static int gcd(int a, int b) {
         if (a == 0 && b == 0) return 0;
         else if (b == 0) return Math.abs(a);
-
-        int abs_a = Math.abs(a);
-        int abs_b = Math.abs(b);
-
-        while (abs_a % abs_b != 0) {
-            int placeholder = abs_a;
-            abs_a = abs_b;
-            abs_b = placeholder % abs_b;
+        int absa = Math.abs(a);
+        int absb = Math.abs(b);
+        while (absa % absb != 0) {
+            int placeholder = absa;
+            absa = absb;
+            absb = placeholder % absb;
         }
-        return abs_b;
+        return absb;
     }
 
     public static int lcm(int a, int b) {
         if (a == 0 || b == 0) return 0;
         else {
-            int abs_a = Math.abs(a);
-            int abs_b = Math.abs(b);
-
-            return (abs_a / gcd(a, b) * abs_b);
+            int absa = Math.abs(a);
+            int absb = Math.abs(b);
+            return (absa / gcd(a, b) * absb);
         }
+
     }
 
     public static boolean areRelativelyPrime(int a, int b) {
@@ -31,7 +29,7 @@ public class Divisors {
     public static int totient(int n) {
         if (n <= 0) return 0;
         int count = 0;
-        for (int i = 0; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             if (areRelativelyPrime(n, i)) count++;
         }
         return count;
