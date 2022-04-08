@@ -21,8 +21,7 @@ public class Exercise_03 {
 
         public static void merge(Comparable[] a, int low, int mid, int high) {
             int i = low, j = mid + 1;
-            for (int k = low; k <= high; k++)
-                aux[k] = a[k];
+            if (high + 1 - low >= 0) System.arraycopy(a, low, aux, low, high + 1 - low);
             for (int k = low; k <= high; k++)
                 if (i > mid) a[k] = aux[j++];
                 else if (j > high) a[k] = aux[i++];
