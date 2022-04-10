@@ -28,8 +28,8 @@ public class Exercise_08 {
         geoMean = (Math.pow(multiplication, 1.0 / n));
         StdOut.println("Geometric mean: " + geoMean);
 
-        for (int j = 0; j < numbers.size(); j++) {
-            sum = 1.0 / numbers.get(j);
+        for (Double number : numbers) {
+            sum = 1.0 / number;
         }
 
         harmonicMean = n / sum;
