@@ -165,3 +165,88 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
+
+### April 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">APRIL 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Books I read to improve my coding and thinking skills for coding interview:
+<ul>
+<li><a href="https://www.amazon.com/Algorithms-Part-I-Robert-Sedgewick-ebook/dp/B00I50LKYW" target="_blank" rel="noopener noreferrer">Algorithms - Part I</a></li>
+<li><a href="https://www.amazon.com/Computer-Science-Interdisciplinary-Robert-Sedgewick-ebook-dp-B01H916DHG/dp/B01H916DHG/" target="_blank" rel="noopener noreferrer">Computer Science - An Interdisciplinary Approach</a></li>
+<li><a href="https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X">Mathematics for Machine Learning</a></li>
+</ul>
+</li>
+<li>Courses I use to improve my coding and thinking skills:
+<ul>
+<li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
+<li><a href="https://www.coursera.org/learn/cs-programming-java">Computer Science: Programming with a Purpose</a></li>
+<li><a href="https://www.coursera.org/specializations/mathematics-machine-learning?">Mathematics for Machine Learning - Linear Algebra</a></li>
+<li><a href="https://www.coursera.org/learn/python?specialization=python">Python - Programming for Everybody</a></li>
+<li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a></li>
+<li><a href="https://www.coursera.org/learn/julia-programming">Julia Scientific Programming</a></li>
+<li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
+</ul>
+</li>
+<li>M.Sc. - M.Eng. - Research Student:
+<ul>
+<li>Machine Learning
+<ul>
+<li>Advanced Artificial Intelligence</li>
+<li>AI in Healthcare</li>
+</ul>
+</li>
+<li>Neuroengineering:
+<ul>
+<li>Cancer Biology&nbsp;</li>
+<li>Neurobiology</li>
+<li>Computational Neuroscience</li>
+<li>Neuroscience: Neurons and Network</li>
+</ul>
+</li>
+<li>Graduate Research
+<ul>
+<li>Multiple Sclerosis</li>
+<li>Dementia</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Coding Platforms : HackerRank, LeetCode, Coderbyte, Codility, Studytonight, Excersim, Codewars
+<ul>
+<li><a href="https://github.com/edaaydinea/LeetCode" target="" rel="noopener noreferrer">LeetCode Solutions</a></li>
+<li><a href="https://github.com/edaaydinea/Coderbyte" target="" rel="noopener noreferrer">Coderbyte Solutions</a></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="simple-translate">
+<div>
+<div class="simple-translate-button isShow" style="background-image: url('chrome-extension://cllnohpbfenopiakdcjmjcbaeapmkcdl/icons/512.png'); height: 22px; width: 22px; top: 28px; left: 246px;">&nbsp;</div>
+<div class="simple-translate-panel " style="width: 300px; height: 200px; top: 0px; left: 0px; font-size: 13px; background-color: #181818; --darkreader-inline-bgcolor: #121414;" data-darkreader-inline-bgcolor="">
+<div class="simple-translate-result-wrapper" style="overflow: hidden;">
+<div class="simple-translate-move" draggable="true">&nbsp;</div>
+<div class="simple-translate-result-contents">
+<p class="simple-translate-result" dir="auto" style="color: #e6e6e6; --darkreader-inline-color: #d8d5d0;" data-darkreader-inline-color="">&nbsp;</p>
+<p class="simple-translate-candidate" dir="auto" style="color: #aaaaaa; --darkreader-inline-color: #b2aca2;" data-darkreader-inline-color="">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
