@@ -145,7 +145,7 @@ public class Merge {
     // print array to standard output
     private static void show(Comparable[] a) {
         for (Comparable comparable : a) {
-            StdOut.println(comparable);
+            StdOut.print(comparable + " ");
         }
     }
 
