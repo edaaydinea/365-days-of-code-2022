@@ -25,7 +25,6 @@
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-
 public class MergeBU {
 
     // This class should not be instantiated.
