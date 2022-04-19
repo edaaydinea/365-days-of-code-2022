@@ -188,6 +188,8 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.amazon.com/Algorithms-Part-I-Robert-Sedgewick-ebook/dp/B00I50LKYW" target="_blank" rel="noopener noreferrer">Algorithms - Part I</a> ✅</li>
 <li><a href="https://www.amazon.com/Computer-Science-Interdisciplinary-Robert-Sedgewick-ebook-dp-B01H916DHG/dp/B01H916DHG/" target="_blank" rel="noopener noreferrer">Computer Science - An Interdisciplinary Approach</a> ✅</li>
 <li><a href="https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X">Mathematics for Machine Learning</a></li>
+<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&me=&qid=">Introduction to Statistics with Python</a></li>
+<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&keywords=machine+learning&qid=1650374382&s=digital-text&sprefix=machine+learning%2Cdigital-text%2C211&sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
 </ul>
 </li>
 <li>Courses I use to improve my coding and thinking skills:
