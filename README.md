@@ -123,10 +123,10 @@ Artificial Intelligence and ***Neuroscience***.
 <li>Courses I use to improve my coding and thinking skills:
 <ul>
 <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
-<li><a href="https://www.coursera.org/learn/calculus-through-data-and-modelling-precalculus-review?specialization=differential-calculus-data-modeling" target="_blank" rel="noopener noreferrer">Calculus through Data &amp; Modeling: Precalculus Review</a></li>
+<li><a href="https://www.coursera.org/learn/calculus-through-data-and-modelling-precalculus-review?specialization=differential-calculus-data-modeling" target="_blank" rel="noopener noreferrer">Calculus through Data &amp; Modeling: Precalculus Review</a>✅</li>
 <li><a href="https://www.coursera.org/learn/python?specialization=python">Python - Programming for Everybody</a></li>
 <li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a></li>
-<li><a href="https://www.coursera.org/learn/c-for-everyone?specialization=coding-for-everyone">C++ - C for Everyone - Programming Fundamentals</a></li>
+<li><a href="https://www.coursera.org/learn/c-for-everyone?specialization=coding-for-everyone">C++ - C for Everyone - Programming Fundamentals</a>⛔</li>
 <li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
 <li><a href="https://www.coursera.org/learn/cancer-metastasis?specialization=cancer-biology" target="_blank" rel="noopener noreferrer">Cancer Biology - Understanding Cancer Metastasis</a></li>
 <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
@@ -200,6 +200,7 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.coursera.org/learn/python?specialization=python">Python - Programming for Everybody</a></li>
 <li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a></li>
 <li><a href="https://www.coursera.org/learn/julia-programming">Julia Scientific Programming</a></li>
+<li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
 <li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
 </ul>
 </li>
