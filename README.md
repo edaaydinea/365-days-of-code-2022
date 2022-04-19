@@ -192,8 +192,8 @@ Artificial Intelligence and ***Neuroscience***.
 </li>
 <li>Courses I use to improve my coding and thinking skills:
 <ul>
-<li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
-<li><a href="https://www.coursera.org/learn/cs-programming-java">Computer Science: Programming with a Purpose</a></li>
+<li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a> ✅ </li>
+<li><a href="https://www.coursera.org/learn/cs-programming-java">Computer Science: Programming with a Purpose</a> ✅ </li>
 <li><a href="https://www.coursera.org/specializations/mathematics-machine-learning?">Mathematics for Machine Learning - Linear Algebra</a></li>
 <li><a href="https://www.coursera.org/learn/python?specialization=python">Python - Programming for Everybody</a></li>
 <li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a></li>
