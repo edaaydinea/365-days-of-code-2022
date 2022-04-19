@@ -185,8 +185,8 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li>Books I read to improve my coding and thinking skills for coding interview:
 <ul>
-<li><a href="https://www.amazon.com/Algorithms-Part-I-Robert-Sedgewick-ebook/dp/B00I50LKYW" target="_blank" rel="noopener noreferrer">Algorithms - Part I</a></li>
-<li><a href="https://www.amazon.com/Computer-Science-Interdisciplinary-Robert-Sedgewick-ebook-dp-B01H916DHG/dp/B01H916DHG/" target="_blank" rel="noopener noreferrer">Computer Science - An Interdisciplinary Approach</a></li>
+<li><a href="https://www.amazon.com/Algorithms-Part-I-Robert-Sedgewick-ebook/dp/B00I50LKYW" target="_blank" rel="noopener noreferrer">Algorithms - Part I</a> ✅</li>
+<li><a href="https://www.amazon.com/Computer-Science-Interdisciplinary-Robert-Sedgewick-ebook-dp-B01H916DHG/dp/B01H916DHG/" target="_blank" rel="noopener noreferrer">Computer Science - An Interdisciplinary Approach</a> ✅</li>
 <li><a href="https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X">Mathematics for Machine Learning</a></li>
 </ul>
 </li>
