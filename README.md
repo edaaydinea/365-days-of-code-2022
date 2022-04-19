@@ -201,7 +201,7 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a></li>
 <li><a href="https://www.coursera.org/learn/julia-programming">Julia Scientific Programming</a></li>
 <li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
-<li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
+<li><a href="https://www.coursera.org/professional-certificates/ibm-machine-learning" target="_blank" rel="noopener noreferrer">Machine Learning</a></li>
 </ul>
 </li>
 <li>M.Sc. - M.Eng. - Research Student:
