@@ -16,14 +16,14 @@ class Stack:
         """
         Add the item to the stack
         :param item: variable to add into the stack
-        :return: stack (items)
+        :return: variable
         """
         return self.items.append(item)
 
     def pop(self):
         """
         Remove the item from the stack
-        :return: stack (items)
+        :return: variable
         """
         return self.items.pop()
 
