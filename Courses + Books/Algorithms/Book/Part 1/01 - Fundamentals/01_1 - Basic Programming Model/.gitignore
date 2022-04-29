@@ -1,0 +1,7 @@
+.idea
+.lift
+*.xml
+*.iml
+*.txt
+*.zip
+*.class
