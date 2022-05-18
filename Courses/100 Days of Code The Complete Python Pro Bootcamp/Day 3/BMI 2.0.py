@@ -9,7 +9,7 @@ from math import *
 bmi = int(ceil(weight / (height * height)))
 
 if bmi < 18.5:
-    print("Your BMI is {}, you are underweight.".format(floor(bmi)))
+    print("Your BMI is {}, you are underweight.".format(bmi))
 elif 18.5 < bmi <= 25:
     print("Your BMI is {}, you have a normal weight".format(bmi))
 elif 25 < bmi <= 30:
