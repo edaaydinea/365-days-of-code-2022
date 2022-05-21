@@ -3,7 +3,8 @@ def turn_right():
     turn_left()
     turn_left()
 
-def jump()
+
+def jump():
     move()
     turn_left()
     move()
@@ -12,6 +13,7 @@ def jump()
     turn_right()
     move()
     turn_left()
+
 
 for step in range(6):
     jump()
