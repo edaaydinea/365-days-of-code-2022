@@ -290,12 +290,12 @@ Artificial Intelligence and ***Neuroscience***.
 <li>Cancer Biology&nbsp;</li>
 <li>Neurobiology</li>
 <li>Computational Neuroscience</li>
-<li>Neuroscience: Neurons and Network</li>
 </ul>
 </li>
 <li>Graduate Research
 <ul>
 <li>Multiple Sclerosis</li>
+<li>Traumatic Brain Injury</li>
 <li>Dementia</li>
 </ul>
 </li>
