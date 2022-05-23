@@ -246,7 +246,7 @@ Artificial Intelligence and ***Neuroscience***.
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
-<th style="height: 18px; width: 694px;">APRIL 2022</th>
+<th style="height: 18px; width: 694px;">MAY 2022</th>
 </tr>
 </thead>
 <tbody>
@@ -268,12 +268,12 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.udemy.com/course/100-days-of-code/" target="_blank" rel="noreferrer"> 100 Days of Code: The Complete Python Pro BootCamp for 2022</a></li>
 <li><a href="https://www.udemy.com/course/the-complete-java-development-bootcamp/" target="_blank" rel="noreferrer">The Complete Java Development Bootcamp</a></li>
 <li><a href="https://www.udemy.com/course/r-programming/" target="_blank" rel="noreferrer">R Programming A-Z: R for Data Science with Real Exercises</a></li>
-<li><a href="https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/" target="_blank" rel="noreferrer">MATLAB/SIMULINK Bible |Go From Zero to Hero!</a></li>
 <li><a href="https://www.udemy.com/course/julialang/" target="_blank" rel="noreferrer">Julia Programming For Data Science & Machine Learning: Julia</a> </li>
 <li><a href="https://www.coursera.org/specializations/mathematics-machine-learning" target="_blank" rel="noreferrer">Mathematics for Machine Learning Specialization</a></li>
 <li><a href="https://www.coursera.org/learn/stanford-statistics" target="_blank" rel="noreferrer">Introduction to Statistics</a> </li>
 <li><a href="https://www.udemy.com/course/sqldatabases/" target="_blank" rel="noreferrer">SQL + Database Design A-Z: Learn MS SQL Server + PostgreSQL</a> </li>
-<li><a href="https://www.coursera.org/professional-certificates/ibm-machine-learning" target="_blank" rel="noreferrer">Machine Learning</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank" rel = "noreferrer">Stanford CS229: Machine Learning | Autumn 2018</a></li>
+<li><a href="https://www.coursera.org/professional-certificates/ibm-machine-learning" target="_blank" rel="noreferrer">Machine Learning Professional Certificate</a></li>
 <li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/" target="_blank" rel="noreferrer">Complete 2022 Data Science & Machine Learning Bootcamp</a></li>
 </ul>
 </li>
