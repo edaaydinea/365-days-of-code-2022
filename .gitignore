@@ -10,3 +10,4 @@ Algorithms/Course/Week 1/hello/logo.png
 *.exe
 *.cmake
 *.DS_Store
+*.pyc
