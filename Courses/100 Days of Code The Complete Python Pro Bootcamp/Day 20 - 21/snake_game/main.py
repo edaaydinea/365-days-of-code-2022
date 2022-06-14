@@ -1,6 +1,7 @@
 import time
 from turtle import Screen
 
+from food import Food
 from snake import Snake
 
 
@@ -18,6 +19,7 @@ class MainProgram:
 
     def start_game(self):
         snake = Snake()
+        food = Food()
         self.snake_screen.listen()
         self.snake_screen.onkey(snake.up, "Up")
         self.snake_screen.onkey(snake.down, "Down")
