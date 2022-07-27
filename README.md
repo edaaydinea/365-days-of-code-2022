@@ -426,8 +426,8 @@ Specialization</a></li>
 </li>
 <li>Bootcamp I started attending this month
 <ul>
-<li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank"rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a></li>
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp" target="_blank"rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a></li>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
 </ul>
 </li>
 <li>M.Eng. - Research Student:
