@@ -24,6 +24,7 @@ Artificial Intelligence and ***Neuroscience***.
 
 ### January 2022
 
+<p>&nbsp;</p>
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -56,11 +57,9 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
 <p>&nbsp;</p>
 
 ### February 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -94,11 +93,8 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
 <p>&nbsp;</p>
-
 ### March 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -121,10 +117,10 @@ Artificial Intelligence and ***Neuroscience***.
 <li>Courses I use to improve my coding and thinking skills:
 <ul>
 <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
-<li><a href="https://www.coursera.org/learn/calculus-through-data-and-modelling-precalculus-review?specialization=differential-calculus-data-modeling" target="_blank" rel="noopener noreferrer">Calculus through Data &amp; Modeling: Precalculus Review</a>✅</li>
+<li><a href="https://www.coursera.org/learn/calculus-through-data-and-modelling-precalculus-review?specialization=differential-calculus-data-modeling" target="_blank" rel="noopener noreferrer">Calculus through Data &amp; Modelling: Precalculus Review</a>✅</li>
 <li><a href="https://www.coursera.org/learn/python?specialization=python">Python - Programming for Everybody</a></li>
 <li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a></li>
-<li><a href="https://www.coursera.org/learn/c-for-everyone?specialization=coding-for-everyone">C++ - C for Everyone - Programming Fundamentals</a>⛔</li>
+<li><a href="https://www.coursera.org/learn/c-for-everyone?specialization=coding-for-everyone">C++ - C for Everyone - Programming Fundamentals</a></li>
 <li><a href="https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></li>
 <li><a href="https://www.coursera.org/learn/cancer-metastasis?specialization=cancer-biology" target="_blank" rel="noopener noreferrer">Cancer Biology - Understanding Cancer Metastasis</a></li>
 <li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a></li>
@@ -163,11 +159,8 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
 <p>&nbsp;</p>
-
 ### April 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -186,14 +179,14 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.amazon.com/Algorithms-Part-I-Robert-Sedgewick-ebook/dp/B00I50LKYW" target="_blank" rel="noopener noreferrer">Algorithms - Part I</a> ✅</li>
 <li><a href="https://www.amazon.com/Computer-Science-Interdisciplinary-Robert-Sedgewick-ebook-dp-B01H916DHG/dp/B01H916DHG/" target="_blank" rel="noopener noreferrer">Computer Science - An Interdisciplinary Approach</a> ✅</li>
 <li><a href="https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X">Mathematics for Machine Learning</a></li>
-<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&me=&qid=">Introduction to Statistics with Python</a></li>
-<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&keywords=machine+learning&qid=1650374382&s=digital-text&sprefix=machine+learning%2Cdigital-text%2C211&sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
+<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&amp;me=&amp;qid=">Introduction to Statistics with Python</a></li>
+<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&amp;keywords=machine+learning&amp;qid=1650374382&amp;s=digital-text&amp;sprefix=machine+learning%2Cdigital-text%2C211&amp;sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
 </ul>
 </li>
 <li>Courses I use to improve my coding and thinking skills:
 <ul>
-<li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a> ✅ </li>
-<li><a href="https://www.coursera.org/learn/cs-programming-java">Computer Science: Programming with a Purpose</a> ✅ </li>
+<li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Algorithm - Part 1</a> ✅</li>
+<li><a href="https://www.coursera.org/learn/cs-programming-java">Computer Science: Programming with a Purpose</a> ✅</li>
 <li><a href="https://www.coursera.org/specializations/mathematics-machine-learning?">Mathematics for Machine Learning - Linear Algebra</a> ✅</li>
 <li><a href="https://www.coursera.org/learn/python?specialization=python">Python - Programming for Everybody</a> ✅</li>
 <li><a href="https://www.coursera.org/learn/r-programming-environment?specialization=r">R Programming Environment</a> ✅</li>
@@ -238,9 +231,8 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
+<p>&nbsp;</p>
 ### May 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -257,8 +249,8 @@ Artificial Intelligence and ***Neuroscience***.
 <li>Books I read to improve my coding and thinking skills for coding interview:
 <ul>
 <li><a href="https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X">Mathematics for Machine Learning</a></li>
-<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&me=&qid=">Introduction to Statistics with Python</a></li>
-<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&keywords=machine+learning&qid=1650374382&s=digital-text&sprefix=machine+learning%2Cdigital-text%2C211&sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
+<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&amp;me=&amp;qid=">Introduction to Statistics with Python</a></li>
+<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&amp;keywords=machine+learning&amp;qid=1650374382&amp;s=digital-text&amp;sprefix=machine+learning%2Cdigital-text%2C211&amp;sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
 </ul>
 </li>
 <li>Courses I use to improve my coding and thinking skills:
@@ -266,13 +258,13 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.udemy.com/course/100-days-of-code/" target="_blank" rel="noreferrer"> 100 Days of Code: The Complete Python Pro BootCamp for 2022</a></li>
 <li><a href="https://www.udemy.com/course/the-complete-java-development-bootcamp/" target="_blank" rel="noreferrer">The Complete Java Development Bootcamp</a></li>
 <li><a href="https://www.udemy.com/course/r-programming/" target="_blank" rel="noreferrer">R Programming A-Z: R for Data Science with Real Exercises</a></li>
-<li><a href="https://www.udemy.com/course/julialang/" target="_blank" rel="noreferrer">Julia Programming For Data Science & Machine Learning: Julia</a> </li>
+<li><a href="https://www.udemy.com/course/julialang/" target="_blank" rel="noreferrer">Julia Programming For Data Science &amp; Machine Learning: Julia</a></li>
 <li><a href="https://www.coursera.org/specializations/mathematics-machine-learning" target="_blank" rel="noreferrer">Mathematics for Machine Learning Specialization</a></li>
-<li><a href="https://www.coursera.org/learn/stanford-statistics" target="_blank" rel="noreferrer">Introduction to Statistics</a> </li>
-<li><a href="https://www.udemy.com/course/sqldatabases/" target="_blank" rel="noreferrer">SQL + Database Design A-Z: Learn MS SQL Server + PostgreSQL</a> </li>
-<li><a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank" rel = "noreferrer">Stanford CS229: Machine Learning | Autumn 2018</a></li>
+<li><a href="https://www.coursera.org/learn/stanford-statistics" target="_blank" rel="noreferrer">Introduction to Statistics</a></li>
+<li><a href="https://www.udemy.com/course/sqldatabases/" target="_blank" rel="noreferrer">SQL + Database Design A-Z: Learn MS SQL Server + PostgreSQL</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank" rel="noreferrer">Stanford CS229: Machine Learning | Autumn 2018</a></li>
 <li><a href="https://www.coursera.org/professional-certificates/ibm-machine-learning" target="_blank" rel="noreferrer">Machine Learning Professional Certificate</a></li>
-<li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/" target="_blank" rel="noreferrer">Complete 2022 Data Science & Machine Learning Bootcamp</a></li>
+<li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/" target="_blank" rel="noreferrer">Complete 2022 Data Science &amp; Machine Learning Bootcamp</a></li>
 </ul>
 </li>
 <li>M.Eng. - Research Student:
@@ -310,9 +302,8 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
+<p>&nbsp;</p>
 ### June 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -329,8 +320,8 @@ Artificial Intelligence and ***Neuroscience***.
 <li>Books I read to improve my coding and thinking skills for coding interview:
 <ul>
 <li><a href="https://www.amazon.com/Mathematics-Machine-Learning-Peter-Deisenroth/dp/110845514X">Mathematics for Machine Learning</a></li>
-<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&me=&qid=">Introduction to Statistics with Python</a></li>
-<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&keywords=machine+learning&qid=1650374382&s=digital-text&sprefix=machine+learning%2Cdigital-text%2C211&sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
+<li><a href="https://www.amazon.com/Introduction-Statistics-Python-Applications-Computing-ebook-dp-B01JEJNNWY/dp/B01JEJNNWY/ref=mt_other?_encoding=UTF8&amp;me=&amp;qid=">Introduction to Statistics with Python</a></li>
+<li><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=sr_1_1?crid=17GP21RGBCC7J&amp;keywords=machine+learning&amp;qid=1650374382&amp;s=digital-text&amp;sprefix=machine+learning%2Cdigital-text%2C211&amp;sr=1-1">Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></li>
 </ul>
 </li>
 <li>Courses I use to improve my coding and thinking skills:
@@ -338,14 +329,14 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.udemy.com/course/100-days-of-code/" target="_blank" rel="noreferrer"> 100 Days of Code: The Complete Python Pro BootCamp for 2022</a></li>
 <li><a href="https://www.udemy.com/course/the-complete-java-development-bootcamp/" target="_blank" rel="noreferrer">The Complete Java Development Bootcamp</a></li>
 <li><a href="https://www.udemy.com/course/r-programming/" target="_blank" rel="noreferrer">R Programming A-Z: R for Data Science with Real Exercises</a></li>
-<li><a href="https://www.udemy.com/course/julialang/" target="_blank" rel="noreferrer">Julia Programming For Data Science & Machine Learning: Julia</a> </li>
+<li><a href="https://www.udemy.com/course/julialang/" target="_blank" rel="noreferrer">Julia Programming For Data Science &amp; Machine Learning: Julia</a></li>
 <li><a href="https://www.coursera.org/specializations/mathematics-machine-learning" target="_blank" rel="noreferrer">Mathematics for Machine Learning Specialization</a></li>
-<li><a href="https://www.coursera.org/learn/stanford-statistics" target="_blank" rel="noreferrer">Introduction to Statistics</a> </li>
-<li><a href="https://www.udemy.com/course/sqldatabases/" target="_blank" rel="noreferrer">SQL + Database Design A-Z: Learn MS SQL Server + PostgreSQL</a> </li>
-<li><a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank" rel = "noreferrer">Stanford CS229: Machine Learning | Autumn 2018</a>✅</li>
+<li><a href="https://www.coursera.org/learn/stanford-statistics" target="_blank" rel="noreferrer">Introduction to Statistics</a></li>
+<li><a href="https://www.udemy.com/course/sqldatabases/" target="_blank" rel="noreferrer">SQL + Database Design A-Z: Learn MS SQL Server + PostgreSQL</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank" rel="noreferrer">Stanford CS229: Machine Learning | Autumn 2018</a>✅</li>
 <li><a href="https://www.coursera.org/professional-certificates/ibm-machine-learning" target="_blank" rel="noreferrer">Machine Learning Professional Certificate</a></li>
-<li><a href="https://www.coursera.org/learn/machine-learning?" target="_blank" rel = "noreferrer">Machine Learning - Andrew NG</a>✅</li>
-<li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/" target="_blank" rel="noreferrer">Complete 2022 Data Science & Machine Learning Bootcamp</a></li>
+<li><a href="https://www.coursera.org/learn/machine-learning?" target="_blank" rel="noreferrer">Machine Learning - Andrew NG</a>✅</li>
+<li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/" target="_blank" rel="noreferrer">Complete 2022 Data Science &amp; Machine Learning Bootcamp</a></li>
 </ul>
 </li>
 <li>M.Eng. - Research Student:
@@ -383,9 +374,8 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
+<p>&nbsp;</p>
 ### July 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -398,26 +388,36 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 <tr style="height: 173px;">
 <td style="height: 173px; width: 694px;">
-
-<li>Bootcamp I started attending this month
 <ul>
+<li>Bootcamps<br />
+<ul>
+<li style="list-style-type: none;">
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
-<li>Module 1: Python Programming</li>
-<li>Module 2: Data Analysis with Python&nbsp;</li>
-<li>Module 3: Feature Engineering</li>
-<li>Module 4: Machine Learning &ndash; Part 1
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%201">Module 1: Python Programming ✅</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%202">Module 2: Data Analysis with Python ✅</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%203">Module 3: Feature Engineering ✅</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%204">Module 4: Machine Learning &ndash; Part 1 ✅ </a>
 <ul>
-<li>Introduction to Machine Learning</li>
-<li>Linear Regression</li>
-<li>Logistic Regression</li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/01%20-%20Basic%20Concepts.ipynb">Introduction to Machine Learning</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/02%20-%20Linear%20Regression.ipynb">Linear Regression</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/03%20-%20Logistic%20Regression.ipynb">Logistic Regression</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li>Deep Learning Specialization
+<ul>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep%20Learning%20Specialization/01%20-%20Neural%20Networks%20-%20Deep%20Learning">Course 1: Neural Networks and Deep Learning</a> ✅</li>
 </ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -425,9 +425,8 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 </tbody>
 </table>
-
+<p>&nbsp;</p>
 ### August 2022
-
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -440,28 +439,44 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 <tr style="height: 173px;">
 <td style="height: 173px; width: 694px;">
-<li>Bootcamp I started attending this month
 <ul>
+<li>Bootcamps<br />
+<ul>
+<li style="list-style-type: none;">
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
-<li>Module 5: Machine Learning - Part 2
+<li>Module 5: Machine Learning &ndash; Part 2 ✅
 <ul>
-<li>KNN</li>
-<li>Advance Tree Methods</li>
-<li>Imbalanced Datasets</li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/KNN.ipynb">KNN</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/CART.ipynb">CART</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/Advanced%20Tree%20Methods.ipynb">Advanced Tree Methods</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/Dengesiz-Veri-Seti.ipynb">Imbalanced Datasets</a></li>
 </ul>
 </li>
-<li>Module 6: Machine Learning - Part 3
+<li>Module 6: Machine Learning &ndash; Part 3 ✅&nbsp;
 <ul>
-<li>Unsupervised Learning</li>
-<li>Machine Learning Pipeline</li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%206/Unsupervised%20Learning/Unsupervised%20Learning.ipynb">Unsupervised Learning</a></li>
+<li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%206/Machine%20Learning%20Pipeline/End%20to%20End%20Diabetes%20Machine%20Learning%20Pipeline.ipynb">Machine Learning Pipeline</a></li>
+</ul>
+</li>
+<li>Miuul Machine Learning Final Exam ✅</li>
+<li>Data Engineer Workshop (August 18, 2022)</li>
+<li>Data Analyst Workshop (August 19, 2022)</li>
+<li>Data Scientist Workshop (August 20, 2022)</li>
+</ul>
+</li>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li>Deep Learning Specialization
+<ul>
+<li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</li>
 </ul>
 </li>
 </ul>
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
 </li>
 </ul>
+</li>
 </ul>
 </li>
 </ul>
