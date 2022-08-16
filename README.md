@@ -23,8 +23,6 @@ Artificial Intelligence and ***Neuroscience***.
     - [August 2022](#august-2022)
 
 ### January 2022
-
-<p>&nbsp;</p>
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
