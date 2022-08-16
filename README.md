@@ -11,18 +11,16 @@ Artificial Intelligence and ***Neuroscience***.
 
 ## Table of Contents
 
-- [January 2022](#1)
-- [February 2022](#2)
-- [March 2022](#3)
-- [April 2022](#4)
-- [May 2022](#5)
-- [June 2022](#6)
-- [July 2022](#7)
-- [August 2022](#8)
-- [September 2022](#9)
-- [October 2022](#10)
-- [November 2022](#11)
-- [December 2022](#12)
+- [365 Days of Code](#365-days-of-code)
+  - [Table of Contents](#table-of-contents)
+    - [January 2022](#january-2022)
+    - [February 2022](#february-2022)
+    - [March 2022](#march-2022)
+    - [April 2022](#april-2022)
+    - [May 2022](#may-2022)
+    - [June 2022](#june-2022)
+    - [July 2022](#july-2022)
+    - [August 2022](#august-2022)
 
 ### January 2022
 
@@ -400,6 +398,50 @@ Artificial Intelligence and ***Neuroscience***.
 </tr>
 <tr style="height: 173px;">
 <td style="height: 173px; width: 694px;">
+
+<li>Bootcamp I started attending this month
+<ul>
+<ul>
+<li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
+<ul>
+<li>Module 1: Python Programming</li>
+<li>Module 2: Data Analysis with Python&nbsp;</li>
+<li>Module 3: Feature Engineering</li>
+<li>Module 4: Machine Learning &ndash; Part 1
+<ul>
+<li>Introduction to Machine Learning</li>
+<li>Linear Regression</li>
+<li>Logistic Regression</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### August 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">AUGUST 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<!--
 <ul>
 <li>Books I read to improve my coding and thinking skills for coding interview:
 <ul>
@@ -419,17 +461,37 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://www.udemy.com/course/sqldatabases/" target="_blank" rel="noreferrer">SQL + Database Design A-Z: Learn MS SQL Server + PostgreSQL</a> </li>
 <li><a href="https://www.coursera.org/professional-certificates/ibm-machine-learning" target="_blank" rel="noreferrer">Machine Learning Professional Certificate</a></li>
 <li><a href="https://www.coursera.org/specializations/machine-learning-introduction?" target="_blank"rel="noreferrer"> Machine Learning Specialization</a></li>
-<li><a href="https://www.coursera.org/specializations/deep-learning?" target="_blank" rel="noreferrer">Deep Learning 
+<li><a href="https://www.coursera.org/specializations/deep-learning?" target="_blank" rel="noreferrer">Deep Learning
 Specialization</a></li>
 <li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/" target="_blank" rel="noreferrer">Complete 2022 Data Science & Machine Learning Bootcamp</a></li>
 </ul>
 </li>
+-->
 <li>Bootcamp I started attending this month
 <ul>
-<li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank"rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a></li>
+<ul>
+<li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
+<ul>
+<li>Module 5: Machine Learning - Part 2
+<ul>
+<li>KNN</li>
+<li>Advance Tree Methods</li>
+<li>Imbalanced Datasets</li>
+</ul>
+</li>
+<li>Module 6: Machine Learning - Part 3
+<ul>
+<li>Unsupervised Learning</li>
+<li>Machine Learning Pipeline</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
 </ul>
 </li>
+<!--
 <li>M.Eng. - Research Student:
 <ul>
 <li>Machine Learning
@@ -460,6 +522,7 @@ Specialization</a></li>
 <li><a href="https://github.com/edaaydinea/Coderbyte" target="" rel="noopener noreferrer">Coderbyte Solutions</a></li>
 </ul>
 </li>
+-->
 </ul>
 </td>
 </tr>
