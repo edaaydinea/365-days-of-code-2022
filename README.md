@@ -404,10 +404,10 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
-<li>Module 1: Python Programming</li>
-<li>Module 2: Data Analysis with Python&nbsp;</li>
-<li>Module 3: Feature Engineering</li>
-<li>Module 4: Machine Learning &ndash; Part 1
+<li>Module 1: Python Programming ✅</li>
+<li>Module 2: Data Analysis with Python&nbsp; ✅</li>
+<li>Module 3: Feature Engineering ✅</li>
+<li>Module 4: Machine Learning &ndash; Part 1 ✅
 <ul>
 <li>Introduction to Machine Learning</li>
 <li>Linear Regression</li>
@@ -416,7 +416,7 @@ Artificial Intelligence and ***Neuroscience***.
 </li>
 </ul>
 </li>
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a></li>
 </ul>
 </ul>
 </li>
@@ -431,7 +431,7 @@ Artificial Intelligence and ***Neuroscience***.
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
-<th style="height: 18px; width: 694px;">AUGUST 2022</th>
+<th style="height: 18px; width: 100%;">AUGUST 2022</th>
 </tr>
 </thead>
 <tbody>
@@ -445,14 +445,14 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
-<li>Module 5: Machine Learning - Part 2
+<li>Module 5: Machine Learning - Part 2 ✅
 <ul>
 <li>KNN</li>
 <li>Advance Tree Methods</li>
 <li>Imbalanced Datasets</li>
 </ul>
 </li>
-<li>Module 6: Machine Learning - Part 3
+<li>Module 6: Machine Learning - Part 3 ✅
 <ul>
 <li>Unsupervised Learning</li>
 <li>Machine Learning Pipeline</li>
@@ -460,6 +460,7 @@ Artificial Intelligence and ***Neuroscience***.
 </li>
 </ul>
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
+<li><a href="https://globalaihub.com/courses/introduction-to-machine-learning-turkish/" target="_blank" rel="noreferrer">Global AI Hub - Akbank - Machine Learning Bootcamp</a>✅</li>
 </li>
 </ul>
 </ul>
