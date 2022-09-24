@@ -405,10 +405,17 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
+<<<<<<< HEAD
+<li>Module 1: Python Programming ✅</li>
+<li>Module 2: Data Analysis with Python&nbsp; ✅</li>
+<li>Module 3: Feature Engineering ✅</li>
+<li>Module 4: Machine Learning &ndash; Part 1 ✅
+=======
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%201">Module 1: Python Programming ✅</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%202">Module 2: Data Analysis with Python ✅</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%203">Module 3: Feature Engineering ✅</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%204">Module 4: Machine Learning &ndash; Part 1 ✅ </a>
+>>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 <ul>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/01%20-%20Basic%20Concepts.ipynb">Introduction to Machine Learning</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/02%20-%20Linear%20Regression.ipynb">Linear Regression</a></li>
@@ -417,11 +424,15 @@ Artificial Intelligence and ***Neuroscience***.
 </li>
 </ul>
 </li>
+<<<<<<< HEAD
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a></li>
+=======
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
 <li>Deep Learning Specialization
 <ul>
 <li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep%20Learning%20Specialization/01%20-%20Neural%20Networks%20-%20Deep%20Learning">Course 1: Neural Networks and Deep Learning</a> ✅</li>
+>>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 </ul>
 </li>
 </ul>
@@ -442,7 +453,7 @@ Artificial Intelligence and ***Neuroscience***.
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
-<th style="height: 18px; width: 694px;">AUGUST 2022</th>
+<th style="height: 18px; width: 100%;">AUGUST 2022</th>
 </tr>
 </thead>
 <tbody>
@@ -458,7 +469,11 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
+<<<<<<< HEAD
+<li>Module 5: Machine Learning - Part 2 ✅
+=======
 <li>Module 5: Machine Learning &ndash; Part 2 ✅
+>>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 <ul>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/KNN.ipynb">KNN</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/CART.ipynb">CART</a></li>
@@ -466,7 +481,11 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/Dengesiz-Veri-Seti.ipynb">Imbalanced Datasets</a></li>
 </ul>
 </li>
+<<<<<<< HEAD
+<li>Module 6: Machine Learning - Part 3 ✅
+=======
 <li>Module 6: Machine Learning &ndash; Part 3 ✅&nbsp;
+>>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 <ul>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%206/Unsupervised%20Learning/Unsupervised%20Learning.ipynb">Unsupervised Learning</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%206/Machine%20Learning%20Pipeline/End%20to%20End%20Diabetes%20Machine%20Learning%20Pipeline.ipynb">Machine Learning Pipeline</a></li>
@@ -489,6 +508,11 @@ Artificial Intelligence and ***Neuroscience***.
 </ul>
 </li>
 </ul>
+<<<<<<< HEAD
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
+<li><a href="https://globalaihub.com/courses/introduction-to-machine-learning-turkish/" target="_blank" rel="noreferrer">Global AI Hub - Akbank - Machine Learning Bootcamp</a>✅</li>
+=======
+>>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 </li>
 </ul>
 </li>
