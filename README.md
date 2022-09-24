@@ -12,17 +12,18 @@ Artificial Intelligence and ***Neuroscience***.
 ## Table of Contents
 
 - [365 Days of Code](#365-days-of-code)
-  - [Table of Contents](#table-of-contents)
-    - [January 2022](#january-2022)
-    - [February 2022](#february-2022)
-    - [March 2022](#march-2022)
-    - [April 2022](#april-2022)
-    - [May 2022](#may-2022)
-    - [June 2022](#june-2022)
-    - [July 2022](#july-2022)
-    - [August 2022](#august-2022)
+    - [Table of Contents](#table-of-contents)
+        - [January 2022](#january-2022)
+        - [February 2022](#february-2022)
+        - [March 2022](#march-2022)
+        - [April 2022](#april-2022)
+        - [May 2022](#may-2022)
+        - [June 2022](#june-2022)
+        - [July 2022](#july-2022)
+        - [August 2022](#august-2022)
 
 ### January 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -58,6 +59,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### February 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -94,6 +96,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### March 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -161,6 +164,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### April 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -234,6 +238,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### May 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -306,6 +311,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### June 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -379,6 +385,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### July 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -431,6 +438,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### August 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -465,9 +473,12 @@ Artificial Intelligence and ***Neuroscience***.
 </ul>
 </li>
 <li>Miuul Machine Learning Final Exam ✅</li>
-<li>Data Engineer Workshop (August 18, 2022)</li>
-<li>Data Analyst Workshop (August 19, 2022)</li>
-<li>Data Scientist Workshop (August 20, 2022)</li>
+<ul>
+<li>I successfully completed the summer bootcamp by getting 86 points in the final exam.</li>
+</ul>
+<li>Data Engineer Workshop (August 18, 2022) ✅</li>
+<li>Data Analyst Workshop (August 19, 2022) ✅</li>
+<li>Data Scientist Workshop (August 20, 2022) ✅</li>
 </ul>
 </li>
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
@@ -477,6 +488,48 @@ Artificial Intelligence and ***Neuroscience***.
 <li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### September 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">SEPTEMBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li>Deep Learning Specialization
+<ul>
+<li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization✅</li>
+<li>Course 3: Structuring Machine Learning Projects </li>
+</ul>
+</li>
+<li>
+TensorFlow Developer - Professional Certificate
+<ul>
+<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow</li>
 </ul>
 </li>
 </ul>
