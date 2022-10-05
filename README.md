@@ -552,3 +552,56 @@ TensorFlow Developer - Professional Certificate
 </tr>
 </tbody>
 </table>
+
+### October 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">OCTOBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li>Deep Learning Specialization
+<ul>
+<li>Course 3: Structuring Machine Learning Projects ✅ </li>
+<li>Course 4: Convolutional Neural Networks </li>
+</ul>
+</li>
+<li>
+TensorFlow Developer - Professional Certificate
+<ul>
+<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Courses I use to improve my coding and thinking skills:</li>
+<ul>
+<li>Machine Learning Specialization</li>
+<ul>
+<li>Course 1: Supervised Machine Learning: Regression and Classification</li>
+</ul>
+<li>Digitalization in Aeronautics and Space Specialization</li>
+<ul>
+<li>Course 1: Digitalization in the Aerospace Industry</li>
+</ul>
+</ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
