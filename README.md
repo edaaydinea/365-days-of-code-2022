@@ -484,7 +484,9 @@ Artificial Intelligence and ***Neuroscience***.
 </li>
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
-<li>Deep Learning Specialization</li>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
+</li>
 <ul>
 <li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</li>
 </ul>
@@ -517,9 +519,10 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li>Bootcamps<br />
 <ul>
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<li><a href="" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
-<li>Deep Learning Specialization
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
 <ul>
 <li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization✅</li>
 <li>Course 3: Structuring Machine Learning Projects </li>
@@ -547,6 +550,10 @@ TensorFlow Developer - Professional Certificate
 <li>Course 1: Digitalization in the Aerospace Industry</li>
 </ul>
 </ul>
+<li>Projects: </li>
+<ul>
+<li>Prediction of the Different Progressive Levels of Alzheimer's Disease, <i>UpSchool - Google Developer Machine Learning Bootcamp</i> </li>
+</ul>
 </ul>
 </td>
 </tr>
@@ -572,7 +579,8 @@ TensorFlow Developer - Professional Certificate
 <ul>
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
-<li>Deep Learning Specialization
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
 <ul>
 <li>Course 3: Structuring Machine Learning Projects ✅ </li>
 <li>Course 4: Convolutional Neural Networks 🚧 </li>
@@ -599,6 +607,10 @@ TensorFlow Developer - Professional Certificate
 <ul>
 <li>Course 1: Digitalization in the Aerospace Industry 🚧 </li>
 </ul>
+</ul>
+<li>Projects</li>
+<ul>
+<li>Prediction of the Different Progressive Levels of Alzheimer's Disease with MRI data <i>UpSchool - Google Developer Machine Learning Bootcamp</i></li>
 </ul>
 </ul>
 </td>
