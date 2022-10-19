@@ -581,7 +581,7 @@ TensorFlow Developer - Professional Certificate
 <li>
 TensorFlow Developer - Professional Certificate
 <ul>
-<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</li>
+<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning ✅ </li>
 <li>Course 2: Convolutional Neural Networks in TensorFlow</li>
 </ul>
 </li>
