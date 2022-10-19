@@ -575,14 +575,14 @@ TensorFlow Developer - Professional Certificate
 <li>Deep Learning Specialization
 <ul>
 <li>Course 3: Structuring Machine Learning Projects ✅ </li>
-<li>Course 4: Convolutional Neural Networks </li>
+<li>Course 4: Convolutional Neural Networks 🚧 </li>
 </ul>
 </li>
 <li>
 TensorFlow Developer - Professional Certificate
 <ul>
 <li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning ✅ </li>
-<li>Course 2: Convolutional Neural Networks in TensorFlow</li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow 🚧 </li>
 </ul>
 </li>
 </ul>
@@ -593,11 +593,11 @@ TensorFlow Developer - Professional Certificate
 <ul>
 <li>Machine Learning Specialization</li>
 <ul>
-<li>Course 1: Supervised Machine Learning: Regression and Classification</li>
+<li>Course 1: Supervised Machine Learning: Regression and Classification 🚧 </li>
 </ul>
 <li>Digitalization in Aeronautics and Space Specialization</li>
 <ul>
-<li>Course 1: Digitalization in the Aerospace Industry</li>
+<li>Course 1: Digitalization in the Aerospace Industry 🚧 </li>
 </ul>
 </ul>
 </ul>
