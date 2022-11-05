@@ -12,15 +12,18 @@ Artificial Intelligence and ***Neuroscience***.
 ## Table of Contents
 
 - [365 Days of Code](#365-days-of-code)
-    - [Table of Contents](#table-of-contents)
-        - [January 2022](#january-2022)
-        - [February 2022](#february-2022)
-        - [March 2022](#march-2022)
-        - [April 2022](#april-2022)
-        - [May 2022](#may-2022)
-        - [June 2022](#june-2022)
-        - [July 2022](#july-2022)
-        - [August 2022](#august-2022)
+  - [Table of Contents](#table-of-contents)
+    - [January 2022](#january-2022)
+    - [February 2022](#february-2022)
+    - [March 2022](#march-2022)
+    - [April 2022](#april-2022)
+    - [May 2022](#may-2022)
+    - [June 2022](#june-2022)
+    - [July 2022](#july-2022)
+    - [August 2022](#august-2022)
+    - [September 2022](#september-2022)
+    - [October 2022](#october-2022)
+    - [November 2022](#november-2022)
 
 ### January 2022
 
@@ -525,34 +528,23 @@ Artificial Intelligence and ***Neuroscience***.
 %20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
 <ul>
 <li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization✅</li>
-<li>Course 3: Structuring Machine Learning Projects </li>
+<li>Course 3: Structuring Machine Learning Projects🚧</li>
 </ul>
 </li>
 <li>
 TensorFlow Developer - Professional Certificate
 <ul>
-<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</li>
-<li>Course 2: Convolutional Neural Networks in TensorFlow</li>
+<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 🚧</li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow 🚧</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Courses I use to improve my coding and thinking skills:</li>
-<ul>
-<li>Machine Learning Specialization</li>
-<ul>
-<li>Course 1: Supervised Machine Learning: Regression and Classification</li>
-</ul>
-<li>Digitalization in Aeronautics and Space Specialization</li>
-<ul>
-<li>Course 1: Digitalization in the Aerospace Industry</li>
-</ul>
-</ul>
 <li>Projects: </li>
 <ul>
-<li>Prediction of the Different Progressive Levels of Alzheimer's Disease, <i>UpSchool - Google Developer Machine Learning Bootcamp</i> </li>
+<li><a href="https://github.com/edaaydinea/OP1-Prediction-of-the-Different-Progressive-Levels-of-Alzheimer-s-Disease"> of the Different Progressive Levels of Alzheimer's Disease, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>✅</li>
 </ul>
 </ul>
 </td>
@@ -590,7 +582,54 @@ TensorFlow Developer - Professional Certificate
 TensorFlow Developer - Professional Certificate
 <ul>
 <li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning ✅ </li>
-<li>Course 2: Convolutional Neural Networks in TensorFlow 🚧 </li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow ✅ </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Projects</li>
+<ul>
+<li><a href="https://github.com/edaaydinea/OP2-Prediction-of-the-Different-Progressive-Levels-of-Alzheimer-s-Disease-with-MRI-data">Prediction of the Different Progressive Levels of Alzheimer's Disease with MRI data, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>✅</li>
+</ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### November 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">NOVEMBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
+<ul>
+<li>Course 4: Convolutional Neural Networks 🚧 </li>
+<li>Course 5: Seuquence Models</li>
+</ul>
+</li>
+<li>
+TensorFlow Developer - Professional Certificate
+<ul>
+<li>Course 3: Natural Language Processing in TensorFlow</li>
+<li>Course 4: Seuquence, Time Series and Prediction </li>
 </ul>
 </li>
 </ul>
@@ -610,7 +649,7 @@ TensorFlow Developer - Professional Certificate
 </ul>
 <li>Projects</li>
 <ul>
-<li>Prediction of the Different Progressive Levels of Alzheimer's Disease with MRI data <i>UpSchool - Google Developer Machine Learning Bootcamp</i></li>
+<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>🚧</li>
 </ul>
 </ul>
 </td>
