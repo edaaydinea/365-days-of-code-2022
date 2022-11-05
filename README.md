@@ -544,7 +544,7 @@ TensorFlow Developer - Professional Certificate
 </li>
 <li>Projects: </li>
 <ul>
-<li><a href="https://github.com/edaaydinea/OP1-Prediction-of-the-Different-Progressive-Levels-of-Alzheimer-s-Disease"> of the Different Progressive Levels of Alzheimer's Disease, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>✅</li>
+<li><a href="https://github.com/edaaydinea/OP1-Prediction-of-the-Different-Progressive-Levels-of-Alzheimer-s-Disease">Prediction of the Different Progressive Levels of Alzheimer's Disease, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>✅</li>
 </ul>
 </ul>
 </td>
