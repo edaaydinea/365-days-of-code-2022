@@ -622,14 +622,14 @@ TensorFlow Developer - Professional Certificate
 %20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
 <ul>
 <li>Course 4: Convolutional Neural Networks ✅ </li>
-<li>Course 5: Seuquence Models 🚧</li>
+<li>Course 5: Seuquence Models ✅ </li>
 </ul>
 </li>
 <li>
 TensorFlow Developer - Professional Certificate
 <ul>
-<li>Course 3: Natural Language Processing in TensorFlow 🚧</li>
-<li>Course 4: Seuquence, Time Series and Prediction </li>
+<li>Course 3: Natural Language Processing in TensorFlow ✅</li>
+<li>Course 4: Seuquence, Time Series and Prediction 🚧 </li>
 </ul>
 </li>
 </ul>
