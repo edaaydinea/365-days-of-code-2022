@@ -4,48 +4,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/edaaydinea/365-days-of-code)](https://github.com/edaaydinea/365-days-of-code/commits/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/edaaydinea/365-days-of-code)](https://github.com/edaaydinea/365-days-of-code/archive/master.zip)
 
-This
-coding
-challenge
-is
-created
-by
-*Eda
-AYDIN*.
-This
-coding
-challenge
-aims
-to
-progress
-from
+This coding challenge is created by *Eda AYDIN*. This coding challenge aims to progress from ***Python Programming, Computer Vision, Natural Language Processing*** in Artificial Intelligence and ***Neuroscience***.
 
-*
-*
-
-*
-
-Python
-programming
-to
-Computer
-Vision,
-Natural
-Language
-Processing
-***
-in
-Artificial
-Intelligence
-and
-
-*
-*
-
-*
-
-Neuroscience
-***.
 
 ## Table of Contents
 
@@ -62,6 +22,7 @@ Neuroscience
         - [September 2022](#september-2022)
         - [October 2022](#october-2022)
         - [November 2022](#november-2022)
+        - [December 2022](#december-2022)
 
 ### January 2022
 
