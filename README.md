@@ -20,13 +20,9 @@ aims
 to
 progress
 from
-
 *
 *
-
-*
-
-Python
+*Python
 programming
 to
 Computer
@@ -39,13 +35,9 @@ in
 Artificial
 Intelligence
 and
-
 *
 *
-
-*
-
-Neuroscience
+*Neuroscience
 ***.
 
 ## Table of Contents
@@ -658,77 +650,19 @@ TensorFlow Developer - Professional Certificate
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
 <li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
-%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization ✅</a>
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
 <ul>
-<li>Course 4: Convolutional Neural Networks ✅ </li>
-<li>Course 5: Sequence Models ✅</li>
+<li>Course 4: Convolutional Neural Networks 🚧 </li>
+<li>Course 5: Seuquence Models</li>
 </ul>
 </li>
 <li>
 TensorFlow Developer - Professional Certificate
 <ul>
-<li>Course 3: Natural Language Processing in TensorFlow 🚧</li>
+<li>Course 3: Natural Language Processing in TensorFlow</li>
 <li>Course 4: Seuquence, Time Series and Prediction </li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Courses I use to improve my coding and thinking skills:</li>
-<ul>
-<li>Machine Learning Specialization</li>
-<ul>
-<li>Course 1: Supervised Machine Learning: Regression and Classification 🚧 </li>
-</ul>
-<li>Digitalization in Aeronautics and Space Specialization</li>
-<ul>
-<li>Course 1: Digitalization in the Aerospace Industry 🚧 </li>
-</ul>
-</ul>
-<li>Projects</li>
-<ul>
-<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>🚧</li>
-</ul>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### December 2022
-
-<table style="height: 209px;">
-<thead>
-<tr style="height: 18px;">
-<th style="height: 18px; width: 694px;">NOVEMBER 2022</th>
-</tr>
-</thead>
-<tbody>
-<tr style="height: 18px;">
-<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
-</tr>
-<tr style="height: 173px;">
-<td style="height: 173px; width: 694px;">
-<ul>
-<li>Bootcamps<br />
-<ul>
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
-<ul>
-<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
-%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization ✅</a>
-<ul>
-<li>Course 4: Convolutional Neural Networks ✅ </li>
-<li>Course 5: Sequence Models ✅</li>
-</ul>
-</li>
-<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/TensorFlow%20Developer%20Professional%20Certificate" target="_blank" rel="noreferrer"> TensorFlow Developer - Professional Certificate✅</a>
-<ul>
-<li>Course 3: Natural Language Processing in TensorFlow ✅</li>
-<li>Course 4: Sequence, Time Series and Prediction ✅</li>
-</ul>
-</li>
-<li><a href="https://www.credential.net/dc1e1d4c-0b56-4c66-8efe-62b8532ef2e4" target="_blank" rel="noreferrer"> TensorFlow Developer Certificate exam ✅</a></li>
 </ul>
 </li>
 </ul>
