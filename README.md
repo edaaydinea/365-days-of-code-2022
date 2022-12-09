@@ -4,25 +4,28 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/edaaydinea/365-days-of-code)](https://github.com/edaaydinea/365-days-of-code/commits/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/edaaydinea/365-days-of-code)](https://github.com/edaaydinea/365-days-of-code/archive/master.zip)
 
-This coding challenge is created by *Eda AYDIN*.
+This coding challenge is created by *Eda AYDIN*. This coding challenge aims to progress from ***Python Programming, Computer Vision, Natural Language Processing*** in Artificial Intelligence and ***Neuroscience***.
 
-This coding challenge aims to progress from ***Python programming to Computer Vision, Natural Language Processing*** in
-Artificial Intelligence and ***Neuroscience***.
 
 ## Table of Contents
 
 - [365 Days of Code](#365-days-of-code)
-  - [Table of Contents](#table-of-contents)
-    - [January 2022](#january-2022)
-    - [February 2022](#february-2022)
-    - [March 2022](#march-2022)
-    - [April 2022](#april-2022)
-    - [May 2022](#may-2022)
-    - [June 2022](#june-2022)
-    - [July 2022](#july-2022)
-    - [August 2022](#august-2022)
+    - [Table of Contents](#table-of-contents)
+        - [January 2022](#january-2022)
+        - [February 2022](#february-2022)
+        - [March 2022](#march-2022)
+        - [April 2022](#april-2022)
+        - [May 2022](#may-2022)
+        - [June 2022](#june-2022)
+        - [July 2022](#july-2022)
+        - [August 2022](#august-2022)
+        - [September 2022](#september-2022)
+        - [October 2022](#october-2022)
+        - [November 2022](#november-2022)
+        - [December 2022](#december-2022)
 
 ### January 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -58,6 +61,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### February 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -94,6 +98,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### March 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -161,6 +166,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### April 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -234,6 +240,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### May 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -306,6 +313,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### June 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -379,6 +387,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### July 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -398,17 +407,11 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
-<<<<<<< HEAD
-<li>Module 1: Python Programming ✅</li>
-<li>Module 2: Data Analysis with Python&nbsp; ✅</li>
-<li>Module 3: Feature Engineering ✅</li>
-<li>Module 4: Machine Learning &ndash; Part 1 ✅
-=======
+
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%201">Module 1: Python Programming ✅</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%202">Module 2: Data Analysis with Python ✅</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%203">Module 3: Feature Engineering ✅</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/tree/main/Module%204">Module 4: Machine Learning &ndash; Part 1 ✅ </a>
->>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 <ul>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/01%20-%20Basic%20Concepts.ipynb">Introduction to Machine Learning</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%204/02%20-%20Linear%20Regression.ipynb">Linear Regression</a></li>
@@ -417,15 +420,11 @@ Artificial Intelligence and ***Neuroscience***.
 </li>
 </ul>
 </li>
-<<<<<<< HEAD
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a></li>
-=======
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
 <li>Deep Learning Specialization
 <ul>
 <li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep%20Learning%20Specialization/01%20-%20Neural%20Networks%20-%20Deep%20Learning">Course 1: Neural Networks and Deep Learning</a> ✅</li>
->>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 </ul>
 </li>
 </ul>
@@ -442,6 +441,7 @@ Artificial Intelligence and ***Neuroscience***.
 <p>&nbsp;</p>
 
 ### August 2022
+
 <table style="height: 209px;">
 <thead>
 <tr style="height: 18px;">
@@ -461,11 +461,7 @@ Artificial Intelligence and ***Neuroscience***.
 <ul>
 <li><a href="https://www.miuul.com/not-defteri/miuul-makine-ogrenmesi-yaz-kampi" target="_blank" rel="noreferrer">Miuul Machine Learning Summer Bootcamp</a>
 <ul>
-<<<<<<< HEAD
-<li>Module 5: Machine Learning - Part 2 ✅
-=======
 <li>Module 5: Machine Learning &ndash; Part 2 ✅
->>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 <ul>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/KNN.ipynb">KNN</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/CART.ipynb">CART</a></li>
@@ -473,38 +469,239 @@ Artificial Intelligence and ***Neuroscience***.
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/8172641675d70a3542de36d040accf41581abd81/Module%205/Dengesiz-Veri-Seti.ipynb">Imbalanced Datasets</a></li>
 </ul>
 </li>
-<<<<<<< HEAD
-<li>Module 6: Machine Learning - Part 3 ✅
-=======
 <li>Module 6: Machine Learning &ndash; Part 3 ✅&nbsp;
->>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
 <ul>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%206/Unsupervised%20Learning/Unsupervised%20Learning.ipynb">Unsupervised Learning</a></li>
 <li><a href="https://github.com/edaaydinea/Miuul-Machine-Learning-Summer-Bootcamp/blob/main/Module%206/Machine%20Learning%20Pipeline/End%20to%20End%20Diabetes%20Machine%20Learning%20Pipeline.ipynb">Machine Learning Pipeline</a></li>
 </ul>
 </li>
 <li>Miuul Machine Learning Final Exam ✅</li>
-<li>Data Engineer Workshop (August 18, 2022)</li>
-<li>Data Analyst Workshop (August 19, 2022)</li>
-<li>Data Scientist Workshop (August 20, 2022)</li>
+<ul>
+<li>I successfully completed the summer bootcamp by getting 86 points in the final exam.</li>
+</ul>
+<li>Data Engineer Workshop (August 18, 2022) ✅</li>
+<li>Data Analyst Workshop (August 19, 2022) ✅</li>
+<li>Data Scientist Workshop (August 20, 2022) ✅</li>
 </ul>
 </li>
 <li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
 <ul>
-<li>Deep Learning Specialization
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
+</li>
 <ul>
 <li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</li>
 </ul>
-</li>
 </ul>
-<<<<<<< HEAD
-<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a> </li>
 <li><a href="https://globalaihub.com/courses/introduction-to-machine-learning-turkish/" target="_blank" rel="noreferrer">Global AI Hub - Akbank - Machine Learning Bootcamp</a>✅</li>
-=======
->>>>>>> cd85da07ef4bcf303934c5fbd960a399f844a965
+</ul>
 </li>
 </ul>
 </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### September 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">SEPTEMBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
+<ul>
+<li>Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization✅</li>
+<li>Course 3: Structuring Machine Learning Projects🚧</li>
+</ul>
+</li>
+<li>
+TensorFlow Developer - Professional Certificate
+<ul>
+<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 🚧</li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow 🚧</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Projects: </li>
+<ul>
+<li><a href="https://github.com/edaaydinea/OP1-Prediction-of-the-Different-Progressive-Levels-of-Alzheimer-s-Disease">Prediction of the Different Progressive Levels of Alzheimer's Disease, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>✅</li>
+</ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### October 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">OCTOBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization</a>
+<ul>
+<li>Course 3: Structuring Machine Learning Projects ✅ </li>
+<li>Course 4: Convolutional Neural Networks 🚧 </li>
+</ul>
+</li>
+<li>
+TensorFlow Developer - Professional Certificate
+<ul>
+<li>Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning ✅ </li>
+<li>Course 2: Convolutional Neural Networks in TensorFlow ✅ </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Projects</li>
+<ul>
+<li><a href="https://github.com/edaaydinea/OP2-Prediction-of-the-Different-Progressive-Levels-of-Alzheimer-s-Disease-with-MRI-data">Prediction of the Different Progressive Levels of Alzheimer's Disease with MRI data, <i>UpSchool - Google Developer Machine Learning Bootcamp</i>✅</li>
+</ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### November 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">NOVEMBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/Deep
+%20Learning%20Specialization" target="_blank" rel="noreferrer">Deep Learning Specialization ✅</a>
+<ul>
+<li>Course 4: Convolutional Neural Networks ✅</li>
+<li>Course 5: Sequence Models ✅</li>
+</ul>
+</li>
+<li>TensorFlow Developer &ndash; Professional Certificate 🚧
+<ul>
+<li>Course 3: Natural Language Processing in TensorFlow 🚧</li>
+<li>Course 4: Sequence, Time Series and Prediction</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Courses I use to improve my coding and thinking skills:</li>
+<ul>
+<li>Machine Learning Specialization</li>
+<ul>
+<li>Course 1: Supervised Machine Learning: Regression and Classification 🚧</li>
+</ul>
+<li>Digitalization in Aeronautics and Space Specialization</li>
+<ul>
+<li>Course 1: Digitalization in the Aerospace Industry 🚧</li>
+</ul>
+</ul>
+<li>Projects</li>
+<ul>
+<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation, <em>UpSchool - Google Developer Machine Learning Bootcamp</em>🚧</a></li>
+</ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### December 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">DECEMBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li><a href="https://github.com/edaaydinea/UpSchool-Google-Developers-Machine-Learning-Program/tree/main/TensorFlow%20Developer%20Professional%20Certificate">TensorFlow Developer &ndash; Professional Certificate</a> ✅
+<ul>
+<li>Course 3: Natural Language Processing in TensorFlow ✅</li>
+<li>Course 4: Sequence, Time Series and Prediction ✅</li>
+</ul>
+</li>
+<li><a href="https://www.credential.net/dc1e1d4c-0b56-4c66-8efe-62b8532ef2e4">TensorFlow Developer Certificate Exam ✅</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Courses I use to improve my coding and thinking skills:<br />
+<ul>
+<li>Machine Learning Specialization
+<ul>
+<li>Course 1: Supervised Machine Learning: Regression and Classification 🚧</li>
+</ul>
+</li>
+<li>Digitalization in Aeronautics and Space Specialization
+<ul>
+<li>Course 1: Digitalization in the Aerospace Industry 🚧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Projects
+<ul>
+<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation, <em>UpSchool - Google Developer Machine Learning Bootcamp </em>🚧</a></li>
 </ul>
 </li>
 </ul>
