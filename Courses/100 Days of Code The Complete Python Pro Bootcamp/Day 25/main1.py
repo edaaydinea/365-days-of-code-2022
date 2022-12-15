@@ -1,5 +1,7 @@
 import pandas as pd
 
+# Challenge 1
+
 df = pd.read_csv("Squirrel_Data.csv")
 
 # Get all the necessary information
