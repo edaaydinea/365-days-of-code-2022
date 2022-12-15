@@ -1,6 +1,6 @@
 # %% Challenge 1
 
-with open("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weather_data.csv") as data_file:
+with open("weather_data.csv") as data_file:
     data = data_file.readlines()
     print(data)
 
@@ -8,7 +8,7 @@ with open("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weat
 
 import csv
 
-with open("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weather_data.csv") as data_file:
+with open("weather_data.csv") as data_file:
     data = csv.reader(data_file)
     for row in data:
         print(row)
@@ -17,7 +17,7 @@ with open("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weat
 
 import csv
 
-with open("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weather_data.csv") as data_file:
+with open("weather_data.csv") as data_file:
     data = csv.reader(data_file)
     temperatures = []
     for row in data:
@@ -30,7 +30,7 @@ with open("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weat
 
 import pandas as pd
 
-df = pd.read_csv("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/weather_data.csv")
+df = pd.read_csv("weather_data.csv")
 print(df["temp"])
 print(len(df["temp"]))
 print("Mean : {}".format(df["temp"].mean()))
@@ -73,4 +73,4 @@ data = pd.DataFrame(data_dict)
 2   Angela      65
 """
 
-data.to_csv("Courses/100 Days of Code The Complete Python Pro Bootcamp/Day 25/new_data.csv")
+data.to_csv("new_data.csv")
