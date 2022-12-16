@@ -4,8 +4,47 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/edaaydinea/365-days-of-code)](https://github.com/edaaydinea/365-days-of-code/commits/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/edaaydinea/365-days-of-code)](https://github.com/edaaydinea/365-days-of-code/archive/master.zip)
 
-This coding challenge is created by *Eda AYDIN*. This coding challenge aims to progress from ***Python Programming, Computer Vision, Natural Language Processing*** in Artificial Intelligence and ***Neuroscience***.
+This
+coding
+challenge
+is
+created
+by
+*Eda
+AYDIN*.
+This
+coding
+challenge
+aims
+to
+progress
+from
 
+*
+*
+
+*
+
+Python
+Programming,
+Computer
+Vision,
+Natural
+Language
+Processing
+***
+in
+Artificial
+Intelligence
+and
+
+*
+*
+
+*
+
+Neuroscience
+***.
 
 ## Table of Contents
 
@@ -634,17 +673,6 @@ TensorFlow Developer - Professional Certificate
 </li>
 </ul>
 </li>
-<li>Courses I use to improve my coding and thinking skills:</li>
-<ul>
-<li>Machine Learning Specialization</li>
-<ul>
-<li>Course 1: Supervised Machine Learning: Regression and Classification 🚧</li>
-</ul>
-<li>Digitalization in Aeronautics and Space Specialization</li>
-<ul>
-<li>Course 1: Digitalization in the Aerospace Industry 🚧</li>
-</ul>
-</ul>
 <li>Projects</li>
 <ul>
 <li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation, <em>UpSchool - Google Developer Machine Learning Bootcamp</em>🚧</a></li>
@@ -656,3 +684,44 @@ TensorFlow Developer - Professional Certificate
 </table>
 
 ### December 2022
+
+<table style="height: 209px;">
+<thead>
+<tr style="height: 18px;">
+<th style="height: 18px; width: 694px;">DECEMBER 2022</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 694px; text-align: center;">Sources</td>
+</tr>
+<tr style="height: 173px;">
+<td style="height: 173px; width: 694px;">
+<ul>
+<li>Bootcamps<br />
+<ul>
+<li><a href="https://www.upschool.io/google-ml-program%C4%B1" target="_blank" rel="noreferrer">UpSchool - Google Developer Machine Learning Bootcamp</a>
+<ul>
+<li>TensorFlow Developer &ndash; Professional Certificate ✅
+<ul>
+<li>Course 3: Natural Language Processing in TensorFlow ✅</li>
+<li>Course 4: Sequence, Time Series and Prediction ✅</li>
+</ul>
+<li>TensorFlow Developer Certificate Exam ✅</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Research Projects</li>
+<ul>
+<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation,<em>UpSchool - Google Developer Machine Learning Bootcamp</em>🚧</a></li>
+</ul>
+<li>Competition</li>
+<ul>
+<li><a href="https://www.teknofest.org/tr/competitions/competition/34">BI-RADS Category Composition Estimation in Computer Vision Screening Mammograms,<em> TeknoFest Artificial Intelligence in Health Competition</em>🚧</a></li>
+</ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
