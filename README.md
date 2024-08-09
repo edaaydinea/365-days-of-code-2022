@@ -675,11 +675,11 @@ TensorFlow Developer - Professional Certificate
 </li>
 <li>Research Projects</li>
 <ul>
-<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation,<em>UpSchool - Google Developer Machine Learning Bootcamp</em>🚧</a></li>
+<li><a href="https://github.com/edaaydinea/Low-Grade-Glioma-Segmentation">Low Grade Glioma Segmentation,<em>UpSchool - Google Developer Machine Learning Bootcamp</em>✅</a></li>
 </ul>
 <li>Competition</li>
 <ul>
-<li><a href="https://www.teknofest.org/tr/competitions/competition/34">BI-RADS Category Composition Estimation in Computer Vision Screening Mammograms,<em> TeknoFest Artificial Intelligence in Health Competition</em>🚧</a></li>
+<li><a href="https://www.teknofest.org/tr/competitions/competition/34">BI-RADS Category Composition Estimation in Computer Vision Screening Mammograms,<em> TeknoFest Artificial Intelligence in Health Competition</em>✅</a></li>
 </ul>
 </ul>
 </td>
